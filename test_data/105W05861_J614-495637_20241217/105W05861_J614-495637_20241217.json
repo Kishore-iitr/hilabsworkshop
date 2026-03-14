@@ -1,0 +1,1868 @@
+[
+  {
+    "entity": "encounter 1 electronically signed by",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 Electronically Signed By: [PROVIDER_NAME] 03/19/2024 03:25:06 PM__page_no__1",
+    "text": "encounter 1 electronically signed by: [provider_name] 03/19/2024 03:25:06 pm [patient_name] (mr # [mrn]) dob: [dob]"
+  },
+  {
+    "entity": "office visit",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__1",
+    "text": "[patient_name] office visit [encounter_date] [facility_name] provider: [provider_name] (ophthalmology) primary diagnosis: intermediate stage nonexudative age-related macular degeneration of left eye reason for visit: diabetic eye exam mrn: [mrn]"
+  },
+  {
+    "entity": "intermediate stage nonexudative age-related macular degeneration of left eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__1",
+    "text": "[patient_name] office visit [encounter_date] [facility_name] provider: [provider_name] (ophthalmology) primary diagnosis: intermediate stage nonexudative age-related macular degeneration of left eye reason for visit: diabetic eye exam mrn: [mrn]"
+  },
+  {
+    "entity": "diabetic eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__1",
+    "text": "[patient_name] office visit [encounter_date] [facility_name] provider: [provider_name] (ophthalmology) primary diagnosis: intermediate stage nonexudative age-related macular degeneration of left eye reason for visit: diabetic eye exam mrn: [mrn]"
+  },
+  {
+    "entity": "age-related macular degeneration",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "dry os",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "areds2 vitamins",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "daily",
+          "entity_score": 1.0,
+          "entity_type": "FREQUENCY",
+          "entity_span": {
+            "start": 117,
+            "end": 122
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "grid monitoring",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "oct macula",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "dry ou",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "drusen",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "oct macula",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "dry ou",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "subfoveal drusen os",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-01-27",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 153,
+            "end": 162
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Progress Notes :: *Age-related macular degeneration, dry OS__page_no__1",
+    "text": "progress notes *age-related macular degeneration, dry os - patient was counseled on taking areds2 vitamins and using daily grid monitoring. - oct macula 1/27/2022: dry ou, drusen os - oct macula [encounter_date]: dry ou, subfoveal drusen os - optos 2/23/2023 - stable"
+  },
+  {
+    "entity": "incipient age-related cataracts",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Progress Notes :: *Incipient age-related cataracts__page_no__1",
+    "text": "progress notes *incipient age-related cataracts - monitor, glasses ok for now *corneal scar os, small [provider_name] (physician) ophthalmology"
+  },
+  {
+    "entity": "monitor",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Progress Notes :: *Incipient age-related cataracts__page_no__1",
+    "text": "progress notes *incipient age-related cataracts - monitor, glasses ok for now *corneal scar os, small [provider_name] (physician) ophthalmology"
+  },
+  {
+    "entity": "glasses",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Progress Notes :: *Incipient age-related cataracts__page_no__1",
+    "text": "progress notes *incipient age-related cataracts - monitor, glasses ok for now *corneal scar os, small [provider_name] (physician) ophthalmology"
+  },
+  {
+    "entity": "corneal scar os, small",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Progress Notes :: *Incipient age-related cataracts__page_no__1",
+    "text": "progress notes *incipient age-related cataracts - monitor, glasses ok for now *corneal scar os, small [provider_name] (physician) ophthalmology"
+  },
+  {
+    "entity": "oct",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OCT, Retina - OU - Both Eyes (92134)__page_no__1",
+    "text": "oct, retina - ou - both eyes (92134) dry ou, subfoveal drusen os"
+  },
+  {
+    "entity": "retina - ou - both eyes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OCT, Retina - OU - Both Eyes (92134)__page_no__1",
+    "text": "oct, retina - ou - both eyes (92134) dry ou, subfoveal drusen os"
+  },
+  {
+    "entity": "dry ou",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "OCT, Retina - OU - Both Eyes (92134)__page_no__1",
+    "text": "oct, retina - ou - both eyes (92134) dry ou, subfoveal drusen os"
+  },
+  {
+    "entity": "subfoveal drusen os",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mcg",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "OCT, Retina - OU - Both Eyes (92134)__page_no__1",
+    "text": "oct, retina - ou - both eyes (92134) dry ou, subfoveal drusen os"
+  },
+  {
+    "entity": "Scanning computerized ophthalmic diagnostic imaging, posterior segment, with interpretation and report, unilateral or bilateral; retina",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "OCT, Retina - OU - Both Eyes (92134)__page_no__1",
+    "text": "oct, retina - ou - both eyes (92134) dry ou, subfoveal drusen os"
+  },
+  {
+    "entity": "diabetic eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "100",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "visual sx",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "type 2",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "blood sugar level",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "hga1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "6",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 229,
+            "end": 230
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "blood sugar",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Diabetic Eye Exam__page_no__1",
+    "text": "diabetic eye exam in both eyes. vision is no visual sx. onset was chronic. severity is mild. diabetes characteristics include type 2 and taking oral medications. duration of years. blood sugar level is controlled. last hga1c was 6. last blood sugar was unknown to patient."
+  },
+  {
+    "entity": "niddm",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "pain",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "irritation",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "redness",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "dryness",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "flashes",
+    "entity_type": "PROBLEM",
+    "assertion": "",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "200",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "units",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "floaters",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "gtts",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "areds ait",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Comments__page_no__1",
+    "text": "comments ep c/hx niddm, here for 1 yr cee pt. states stable vision no pain, irritation, redness, dryness no flashes, floaters x years gtts:none, +areds ait last edited by [provider_name] on [encounter_date] 10:14 am. (history)"
+  },
+  {
+    "entity": "iddm",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "ROS__page_no__1",
+    "text": "ros positive for: endocrine (iddm), cardiovascular (hbp), eyes negative for: constitutional, gastrointestinal, neurological, skin, genitourinary, musculoskeletal, hent, respiratory, psychiatric, allergic/imm, heme/lymph last edited by [provider_name] on [encounter_date] 9:37 am. (history)"
+  },
+  {
+    "entity": "hbp",
+    "entity_type": "VITAL_NAME",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "ROS__page_no__1",
+    "text": "ros positive for: endocrine (iddm), cardiovascular (hbp), eyes negative for: constitutional, gastrointestinal, neurological, skin, genitourinary, musculoskeletal, hent, respiratory, psychiatric, allergic/imm, heme/lymph last edited by [provider_name] on [encounter_date] 9:37 am. (history)"
+  },
+  {
+    "entity": "base eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Base Eye Exam__page_no__1",
+    "text": "base eye exam visual acuity (snellen - linear)"
+  },
+  {
+    "entity": "visual fields",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visual Fields__page_no__2",
+    "text": "visual fields"
+  },
+  {
+    "entity": "glasses",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visual Fields__page_no__2",
+    "text": "correction: glasses"
+  },
+  {
+    "entity": "visual fields tonometry",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "100",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "tablets",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Visual Fields :: Tonometry (Applanation, [ENCOUNTER_DATE])__page_no__2",
+    "text": "visual fields tonometry (applanation, [encounter_date])"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visual Fields :: Tonometry (Applanation, [ENCOUNTER_DATE])__page_no__2",
+    "text": "visual fields tonometry (applanation, [encounter_date])"
+  },
+  {
+    "entity": "oriented x3",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Neuro/Psych__page_no__2",
+    "text": "neuro/psych oriented x3: yes mood/affect: normal"
+  },
+  {
+    "entity": "mood/affect",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Neuro/Psych__page_no__2",
+    "text": "neuro/psych oriented x3: yes mood/affect: normal"
+  },
+  {
+    "entity": "dilation both eyes",
+    "entity_type": "PROCEDURE",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Dilation__page_no__2",
+    "text": "dilation both eyes: 1.0% mydriacyl, 2.5% neo synephrine @ [encounter_date]"
+  },
+  {
+    "entity": "1.0% mydriacyl",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "1.0",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 20,
+            "end": 23
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "%",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 23,
+            "end": 24
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "neo synephrine",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 41,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "neo synephrine",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 41,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 4
+    },
+    "heading": "Dilation__page_no__2",
+    "text": "dilation both eyes: 1.0% mydriacyl, 2.5% neo synephrine @ [encounter_date]"
+  },
+  {
+    "entity": "2.5% neo synephrine",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2.5",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 36,
+            "end": 39
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "%",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 23,
+            "end": 24
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "neo synephrine",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 41,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "neo synephrine",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 41,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 4
+    },
+    "heading": "Dilation__page_no__2",
+    "text": "dilation both eyes: 1.0% mydriacyl, 2.5% neo synephrine @ [encounter_date]"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam__page_no__2",
+    "text": "slit lamp and fundus exam"
+  },
+  {
+    "entity": "slit lamp and fundus exam external exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: External Exam__page_no__2",
+    "text": "slit lamp and fundus exam external exam"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam__page_no__2",
+    "text": "slit lamp and fundus exam slit lamp exam"
+  },
+  {
+    "entity": "slit lamp exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam__page_no__2",
+    "text": "slit lamp and fundus exam slit lamp exam"
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Exam__page_no__2",
+    "text": "fundus exam"
+  },
+  {
+    "entity": "dist ph cc",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "",
+    "temporality": "UNCERTAIN",
+    "subject": "",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "j1",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 34,
+            "end": 36
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "No Heading Found - Table__page_no__2",
+    "text": ": :: dist ph cc: near cc:: 20/25: j1:: date: 20/25 -1:: value: j1"
+  },
+  {
+    "entity": "visual fields",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 75,
+            "end": 79
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Visual Fields - Table__page_no__2",
+    "text": "visual fields header_1: :: header_2: [empty]:: header_3: right:: header_4: left"
+  },
+  {
+    "entity": "visual fields",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visual Fields - Table__page_no__2",
+    "text": "visual fields header_1: :: header_2: [empty]:: header_3: full:: header_4: full"
+  },
+  {
+    "entity": "visual fields",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visual Fields - Table__page_no__2",
+    "text": "visual fields header_1: :: header_2: [empty]:: header_3: full, ortho:: header_4: full, ortho"
+  },
+  {
+    "entity": "visual fields",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 68,
+            "end": 72
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Visual Fields :: Tonometry (Applanation, [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "visual fields header_1: :: header_2: :: header_3: right:: header_4: left"
+  },
+  {
+    "entity": "visual fields",
+    "entity_type": "TEST",
+    "assertion": "",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "10",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 58,
+            "end": 60
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Visual Fields :: Tonometry (Applanation, [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "visual fields header_1: :: header_2: pressure:: header_3: 10:: header_4: 10"
+  },
+  {
+    "entity": "pressure",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "10",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 58,
+            "end": 60
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Visual Fields :: Tonometry (Applanation, [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "visual fields header_1: :: header_2: pressure:: header_3: 10:: header_4: 10"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: External Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: :: header_3: right:: header_4: left"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: External Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: ternal:: header_3: normal:: header_4: normal"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: :: header_3: right:: header_4: left"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: lids/lashes:: header_3: 2-3+ dermatochalasis:: header_4: 2-3+ dermatochalasis"
+  },
+  {
+    "entity": "dermatochalasis",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: lids/lashes:: header_3: 2-3+ dermatochalasis:: header_4: 2-3+ dermatochalasis"
+  },
+  {
+    "entity": "dermatochalasis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: lids/lashes:: header_3: 2-3+ dermatochalasis:: header_4: 2-3+ dermatochalasis"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: conjunctiva/sclera:: header_3: white and quiet:: header_4: white and quiet"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "SDOH",
+    "assertion": "",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: cornea:: header_3: clear:: header_4: small scar"
+  },
+  {
+    "entity": "small scar",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: cornea:: header_3: clear:: header_4: small scar"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: anterior chamber:: header_3: deep and quiet:: header_4: deep and quiet"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: iris:: header_3: round and reactive:: header_4: round and reactive"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: lens:: header_3: 1-2+ ns:: header_4: 1-2+ ns"
+  },
+  {
+    "entity": "lens",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: lens:: header_3: 1-2+ ns:: header_4: 1-2+ ns"
+  },
+  {
+    "entity": "slit lamp and fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Slit Lamp and Fundus Exam :: Slit Lamp Exam - Table__page_no__2",
+    "text": "slit lamp and fundus exam header_1: :: header_2: ... ."
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: :: header_3: right:: header_4: left"
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ml",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: disc:: header_3: normal:: header_4: normal"
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: c/d ratio:: header_3: 0.3:: header_4: 0.3"
+  },
+  {
+    "entity": "c/d ratio",
+    "entity_type": "TEST",
+    "assertion": "NEGATIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "0.3",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 57,
+            "end": 60
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: c/d ratio:: header_3: 0.3:: header_4: 0.3"
+  },
+  {
+    "entity": "mod rpe mottling",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mcg",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: macula:: header_3: normal:: header_4: mod rpe mottling"
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: vessels:: header_3: normal:: header_4: normal"
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Exam - Table__page_no__2",
+    "text": "fundus exam header_1: :: header_2: periphery:: header_3: normal:: header_4: normal"
+  },
+  {
+    "entity": "fundus exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__2",
+    "text": "fundus exam"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction__page_no__3",
+    "text": "refraction"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx__page_no__3",
+    "text": "refraction wearing rx"
+  },
+  {
+    "entity": "rx",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx__page_no__3",
+    "text": "refraction wearing rx"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction__page_no__3",
+    "text": "manifest refraction"
+  },
+  {
+    "entity": "manifest refraction #2",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction #2 (Auto)__page_no__3",
+    "text": "manifest refraction #2 (auto)"
+  },
+  {
+    "entity": "return in about 1 year",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Instructions__page_no__3",
+    "text": "instructions <page_3_image_1.jpg> return in about 1 year (around 2/23/2025) for eye exam."
+  },
+  {
+    "entity": "eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Instructions__page_no__3",
+    "text": "instructions <page_3_image_1.jpg> return in about 1 year (around 2/23/2025) for eye exam."
+  },
+  {
+    "entity": "billing info",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Additional Documentation__page_no__3",
+    "text": "additional documentation encounter info: billing info, history, allergies, developmental assessment, after visit summary, pain assessment, additional history, my healthy lifestyle"
+  },
+  {
+    "entity": "developmental assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Additional Documentation__page_no__3",
+    "text": "additional documentation encounter info: billing info, history, allergies, developmental assessment, after visit summary, pain assessment, additional history, my healthy lifestyle"
+  },
+  {
+    "entity": "after visit summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Additional Documentation__page_no__3",
+    "text": "additional documentation encounter info: billing info, history, allergies, developmental assessment, after visit summary, pain assessment, additional history, my healthy lifestyle"
+  },
+  {
+    "entity": "pain assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Additional Documentation__page_no__3",
+    "text": "additional documentation encounter info: billing info, history, allergies, developmental assessment, after visit summary, pain assessment, additional history, my healthy lifestyle"
+  },
+  {
+    "entity": "my healthy lifestyle",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Additional Documentation__page_no__3",
+    "text": "additional documentation encounter info: billing info, history, allergies, developmental assessment, after visit summary, pain assessment, additional history, my healthy lifestyle"
+  },
+  {
+    "entity": "encounter status electronically signed",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter Status__page_no__3",
+    "text": "encounter status electronically signed by [provider_name], md on [encounter_date] at 11:13"
+  },
+  {
+    "entity": "retina - ou - both eyes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Orders Placed__page_no__3",
+    "text": "orders placed <page_3_image_2.jpg> oct, retina - ou - both eyes (92134)"
+  },
+  {
+    "entity": "Scanning computerized ophthalmic diagnostic imaging, posterior segment, with interpretation and report, unilateral or bilateral; retina",
+    "entity_type": "PROCEDURE",
+    "assertion": "",
+    "temporality": "",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Orders Placed__page_no__3",
+    "text": "orders placed <page_3_image_2.jpg> oct, retina - ou - both eyes (92134)"
+  },
+  {
+    "entity": "spectacle rx",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Spectacle Rx__page_no__3",
+    "text": "spectacle rx 1. pal"
+  },
+  {
+    "entity": "medication changes",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Medication Changes__page_no__3",
+    "text": "medication changes"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: :: header_3: sphere:: header_4: cylinder:: header_5: axis:: header_6: dist va:: header_7: add"
+  },
+  {
+    "entity": "dist va",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: :: header_3: sphere:: header_4: cylinder:: header_5: axis:: header_6: dist va:: header_7: add"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: right:: header_3: +0.75:: header_4: +2.00:: header_5: 002:: header_6: 20/20:: header_7: +2.50"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "180",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 87,
+            "end": 90
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: left:: header_3: +0.75:: header_4: +0.25:: header_5: 180:: header_6: 20/20:: header_7: +2.50"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: :: header_3: sphere:: header_4: cylinder:: header_5: axis:: header_6: add"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "+1.75",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 70,
+            "end": 75
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: right:: header_3: +0.75:: header_4: +1.75:: header_5: 002:: header_6: +2.50"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: left:: header_3: -0.25:: header_4: +1.75:: header_5: 012:: header_6: +2.50"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: type: pal:: header_3: type: pal"
+  },
+  {
+    "entity": "refraction",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2025-02-23",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 51,
+            "end": 60
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: evpiration date: 2/23/2025:: header_3: "
+  },
+  {
+    "entity": "evpiration",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2025-02-23",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 51,
+            "end": 60
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Refraction :: Wearing Rx - Table__page_no__3",
+    "text": "refraction header_1: :: header_2: evpiration date: 2/23/2025:: header_3: "
+  },
+  {
+    "entity": "manifest refraction",
+    "entity_type": "PROBLEM",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction - Table__page_no__3",
+    "text": "manifest refraction header_1: :: header_2: :: header_3: sphere:: header_4: cylinder:: header_5: axis:: header_6: dist va"
+  },
+  {
+    "entity": "manifest refraction",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction - Table__page_no__3",
+    "text": "manifest refraction header_1: :: header_2: right:: header_3: +0.75:: header_4: +2.50:: header_5: 002:: header_6: 20/20"
+  },
+  {
+    "entity": "manifest refraction",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "+0.75",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 60,
+            "end": 65
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Manifest Refraction - Table__page_no__3",
+    "text": "manifest refraction header_1: :: header_2: left:: header_3: +0.75:: header_4: sphere:: header_5: :: header_6: 20/20"
+  },
+  {
+    "entity": "sphere",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction - Table__page_no__3",
+    "text": "manifest refraction header_1: :: header_2: left:: header_3: +0.75:: header_4: sphere:: header_5: :: header_6: 20/20"
+  },
+  {
+    "entity": "manifest refraction #2",
+    "entity_type": "TEST",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction #2 (Auto) - Table__page_no__3",
+    "text": "manifest refraction #2 (auto) header_1: :: header_2: :: header_3: sphere:: header_4: cylinder:: header_5: axis:: header_6: dist va"
+  },
+  {
+    "entity": "manifest refraction #2",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Manifest Refraction #2 (Auto) - Table__page_no__3",
+    "text": "manifest refraction #2 (auto) header_1: :: header_2: right:: header_3: +0.75:: header_4: +2.00:: header_5: 005:: header_6: "
+  },
+  {
+    "entity": "manifest refraction #2",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "176",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 106,
+            "end": 109
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Manifest Refraction #2 (Auto) - Table__page_no__3",
+    "text": "manifest refraction #2 (auto) header_1: :: header_2: left:: header_3: +0.75:: header_4: +0.75:: header_5: 176:: header_6: "
+  },
+  {
+    "entity": " medications",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mcg",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Reviewed this Encounter - Table__page_no__3",
+    "text": "reviewed this encounter : :: : [provider_name], coa:: medications: :: problems: :: allergies: reviewed:: history: family, medical, surgical"
+  },
+  {
+    "entity": " medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Reviewed this Encounter - Table__page_no__3",
+    "text": "reviewed this encounter : :: : [provider_name], md:: medications: :: problems: :: allergies: reviewed:: history: family, medical, surgical"
+  },
+  {
+    "entity": "intermediate stage nonexudative age-related macular degeneration of left eye combined form of age-related cataract, both eyes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visit Diagnoses__page_no__4",
+    "text": "visit diagnoses intermediate stage nonexudative age-related macular degeneration of left eye combined form of age-related cataract, both eyes corneal scar, left eye printed by [provider_name] at [encounter_date] 12:07 pm name: [patient_name] dob: [dob] d date:"
+  },
+  {
+    "entity": "corneal scar, left eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Visit Diagnoses__page_no__4",
+    "text": "visit diagnoses intermediate stage nonexudative age-related macular degeneration of left eye combined form of age-related cataract, both eyes corneal scar, left eye printed by [provider_name] at [encounter_date] 12:07 pm name: [patient_name] dob: [dob] d date:"
+  }
+]

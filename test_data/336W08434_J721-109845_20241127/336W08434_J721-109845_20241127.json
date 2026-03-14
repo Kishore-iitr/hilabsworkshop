@@ -1,0 +1,2936 @@
+[
+  {
+    "entity": "alcohol and drug abuse",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "IMPORTANT INFORMATION - CONFIDENTIAL HEALTHCARE-RELATED__page_no__1",
+    "text": "important information - confidential healthcare-related disclosure statement: protected health care information is personal and sensitive information related to a person's healthcare. it is being delivered to you after appropriate authorization from the patient or under circumstances that do not require patient authorization. you, the recipient, are obligated to maintain it in a safe, secure, and confidential manner. re-disclosure without additional patient consent is prohibited, except as permitted by law. unauthorized re-disclosure or failure to maintain confidentiality could subject you to penalties described in federal and state law. confidentiality of alcohol and drug abuse patient records: federal regulations prohibit you from making any further disclosure of drug and alcohol abuse treatment information unless further disclosure is expressly permitted by the written consent of the person to whom it pertains or the parent or legal guardian of a minor child to whom it pertains, unless otherwise authorized by law. a general authorization for the release of medical or other information is not sufficient for this purpose. [42 cfr part 2] important notice: this protected health information is intended only for the use of the individual or entity to which it is addressed and may contain information that is confidential, privileged or protected. if the reader of this message is not the intended recipient, you are notified that any disclosure, distribution, or copying of this information is prohibited. if you have received this transmission in error, please notify us immediately by calling the health information department at [phone] option 2 then option 4 or by emailing the following items to: [email] - patient record - providence fax cover page - your fax cover page, please indicate if not your patient, not your provider or other error. thank you name: [patient_name] dob: [dob] date:"
+  },
+  {
+    "entity": "drug and alcohol abuse",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "IMPORTANT INFORMATION - CONFIDENTIAL HEALTHCARE-RELATED__page_no__1",
+    "text": "important information - confidential healthcare-related disclosure statement: protected health care information is personal and sensitive information related to a person's healthcare. it is being delivered to you after appropriate authorization from the patient or under circumstances that do not require patient authorization. you, the recipient, are obligated to maintain it in a safe, secure, and confidential manner. re-disclosure without additional patient consent is prohibited, except as permitted by law. unauthorized re-disclosure or failure to maintain confidentiality could subject you to penalties described in federal and state law. confidentiality of alcohol and drug abuse patient records: federal regulations prohibit you from making any further disclosure of drug and alcohol abuse treatment information unless further disclosure is expressly permitted by the written consent of the person to whom it pertains or the parent or legal guardian of a minor child to whom it pertains, unless otherwise authorized by law. a general authorization for the release of medical or other information is not sufficient for this purpose. [42 cfr part 2] important notice: this protected health information is intended only for the use of the individual or entity to which it is addressed and may contain information that is confidential, privileged or protected. if the reader of this message is not the intended recipient, you are notified that any disclosure, distribution, or copying of this information is prohibited. if you have received this transmission in error, please notify us immediately by calling the health information department at [phone] option 2 then option 4 or by emailing the following items to: [email] - patient record - providence fax cover page - your fax cover page, please indicate if not your patient, not your provider or other error. thank you name: [patient_name] dob: [dob] date:"
+  },
+  {
+    "entity": "encounter 1",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1__page_no__1",
+    "text": "encounter 1"
+  },
+  {
+    "entity": "attention payor",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "ATTENTION PAYOR:__page_no__2",
+    "text": "attention payor:"
+  },
+  {
+    "entity": "hospital account",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Hospital Account__page_no__2",
+    "text": "hospital account"
+  },
+  {
+    "entity": "guarantor account",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER])__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number])"
+  },
+  {
+    "entity": "cal optima medicaid",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER])__page_no__2",
+    "text": "2. cal optima medicaid hmo/cal optima direct mdcd hmo"
+  },
+  {
+    "entity": "hmo/cal optima",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER])__page_no__2",
+    "text": "2. cal optima medicaid hmo/cal optima direct mdcd hmo"
+  },
+  {
+    "entity": "guarantor account",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Discharge Needs Assessment__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) discharge needs assessment"
+  },
+  {
+    "entity": "discharge needs assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Discharge Needs Assessment__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) discharge needs assessment"
+  },
+  {
+    "entity": "language english",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Patient Information - Table__page_no__2",
+    "text": "patient information : :: patient name [patient_name]: address [address]:: legal sex male: phone numbers hm: [phone]:: gender identity male: language english:: date of birth [dob]: :: age 69 y.o.: "
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Patient Information - Table__page_no__2",
+    "text": "patient information : :: patient name [patient_name]: room/bed 1515/1515-02:: legal sex male: admission date [encounter_date]:: gender identity male: admission status discharged:: date of birth [dob]: patient class inpatient:: age 69 y.o.: length of stay 4d 17h"
+  },
+  {
+    "entity": "admission status discharged",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Patient Information - Table__page_no__2",
+    "text": "patient information : :: patient name [patient_name]: room/bed 1515/1515-02:: legal sex male: admission date [encounter_date]:: gender identity male: admission status discharged:: date of birth [dob]: patient class inpatient:: age 69 y.o.: length of stay 4d 17h"
+  },
+  {
+    "entity": "patient class inpatient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Patient Information - Table__page_no__2",
+    "text": "patient information : :: patient name [patient_name]: room/bed 1515/1515-02:: legal sex male: admission date [encounter_date]:: gender identity male: admission status discharged:: date of birth [dob]: patient class inpatient:: age 69 y.o.: length of stay 4d 17h"
+  },
+  {
+    "entity": "inpatient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Hospital Account - Table__page_no__2",
+    "text": "hospital account : :: name: [patient_name]:: acct id: [account_number]:: class: inpatient:: status: discharged/not billed:: primary coverage: carelon medicare - carelon anthem bc ca mdcr hmo"
+  },
+  {
+    "entity": "phsca",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "active",
+          "entity_score": 1.0,
+          "entity_type": "VALUE",
+          "entity_span": {
+            "start": 132,
+            "end": 138
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) : :: name: [patient_name]:: relation to pt: self:: service area: phsca:: active?: yes:: acct type: personal/family"
+  },
+  {
+    "entity": "pt",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) : :: name: [address]:: relation to pt: [phone](h):: service area: :: active?: :: acct type: "
+  },
+  {
+    "entity": "guarantor account",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: f/o payor/plan:: header_3: precert #"
+  },
+  {
+    "entity": "f/o payor/plan",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: f/o payor/plan:: header_3: precert #"
+  },
+  {
+    "entity": "guarantor account (for hospital account #[account_number]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: subscriber:: header_3: subscriber #"
+  },
+  {
+    "entity": "guarantor account",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: address:: header_3: phone"
+  },
+  {
+    "entity": "guarantor account (for hospital account #[account_number]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: po box 366 ms 6110:: header_3: 800-300-7011"
+  },
+  {
+    "entity": "guarantor account (for hospital account #[account_number]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: cal optima medicaid hmo/cal optima direct mdcd hmo subscriber:: header_3: subscriber #"
+  },
+  {
+    "entity": "medicaid",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: cal optima medicaid hmo/cal optima direct mdcd hmo subscriber:: header_3: subscriber #"
+  },
+  {
+    "entity": "hmo subscriber",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: cal optima medicaid hmo/cal optima direct mdcd hmo subscriber:: header_3: subscriber #"
+  },
+  {
+    "entity": "guarantor account (for hospital account #[account_number]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: address phone:: header_3: "
+  },
+  {
+    "entity": "guarantor account (for hospital account #[account_number]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Coverage Information (for Hospital Account #[ACCOUNT_NUMBER]) - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) header_1: :: header_2: po box 11037 orange, ca 92856-8137:: header_3: "
+  },
+  {
+    "entity": "guarantor account (for hospital account #[account_number]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Discharge Needs Assessment - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) : :: flowsheet row: discharge needs assessment:: most recent value: "
+  },
+  {
+    "entity": "discharge needs assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Guarantor Account (for Hospital Account #[ACCOUNT_NUMBER]) :: Discharge Needs Assessment - Table__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) : :: flowsheet row: discharge needs assessment:: most recent value: "
+  },
+  {
+    "entity": "discharge needs assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__2",
+    "text": "guarantor account (for hospital account #[account_number]) :: discharge needs assessment"
+  },
+  {
+    "entity": "discharge needs assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: Discharge Needs Assessment (continued)__page_no__3",
+    "text": "discharge needs assessment (continued)"
+  },
+  {
+    "entity": "plan of care by [provider_name]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE])__page_no__3",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) plan of care by [provider_name] at [encounter_date] 1452"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE])__page_no__3",
+    "text": "[encounter_date] 1329"
+  },
+  {
+    "entity": "barriers to discharge",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: Discharge Needs Assessment (continued) - Table__page_no__2",
+    "text": ": :: flowsheet row: barriers to discharge:: most recent value: rle wound? left ankle cellultis. iv abx. independent filed at [encounter_date] 1329"
+  },
+  {
+    "entity": "rle wound",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: Discharge Needs Assessment (continued) - Table__page_no__2",
+    "text": ": :: flowsheet row: barriers to discharge:: most recent value: rle wound? left ankle cellultis. iv abx. independent filed at [encounter_date] 1329"
+  },
+  {
+    "entity": "left ankle cellultis",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 0.8,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "tablets",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "No Heading Found :: Discharge Needs Assessment (continued) - Table__page_no__2",
+    "text": ": :: flowsheet row: barriers to discharge:: most recent value: rle wound? left ankle cellultis. iv abx. independent filed at [encounter_date] 1329"
+  },
+  {
+    "entity": "iv abx",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "iv",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 96,
+            "end": 98
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "No Heading Found :: Discharge Needs Assessment (continued) - Table__page_no__2",
+    "text": ": :: flowsheet row: barriers to discharge:: most recent value: rle wound? left ankle cellultis. iv abx. independent filed at [encounter_date] 1329"
+  },
+  {
+    "entity": "independent filed at [encounter_date] 1329",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: Discharge Needs Assessment (continued) - Table__page_no__2",
+    "text": ": :: flowsheet row: barriers to discharge:: most recent value: rle wound? left ankle cellultis. iv abx. independent filed at [encounter_date] 1329"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) : :: author: [provider_name]: filed: [encounter_date] 1452 status: signed:: service: case management/social author type: case manager work: date of service: [encounter_date] 1452 creation time: [encounter_date] 1452 editor: [provider_name] (case manager)"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: assessment type:: header_3: admission"
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: assessment type:: header_3: admission"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: referral information:: header_3: "
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: referral information:: header_3: "
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "VITAL_NAME",
+    "assertion": "NEGATIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: arrived from:: header_3: admitted as an inpatient"
+  },
+  {
+    "entity": "admitted as an inpatient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: arrived from:: header_3: admitted as an inpatient"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: referral source:: header_3: admission list"
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: referral source:: header_3: admission list"
+  },
+  {
+    "entity": "admission list",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: referral source:: header_3: admission list"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: reason for consult:: header_3: discharge planning"
+  },
+  {
+    "entity": "discharge planning",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: reason for consult:: header_3: discharge planning"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: record reviewed:: header_3: history and physical;medical record"
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: record reviewed:: header_3: history and physical;medical record"
+  },
+  {
+    "entity": "record reviewed",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: record reviewed:: header_3: history and physical;medical record"
+  },
+  {
+    "entity": "medical record",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: record reviewed:: header_3: history and physical;medical record"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: referral information comments:: header_3: sw/cm attempted to complete assessment, however patient declined and want cm to come back another time."
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: information data:: header_3: "
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: information data:: header_3: "
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: information source:: header_3: h & p;record review;rounds"
+  },
+  {
+    "entity": "record review",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: information source:: header_3: h & p;record review;rounds"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: readmission information:: header_3: "
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: readmission information:: header_3: "
+  },
+  {
+    "entity": "readmission information",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: readmission information:: header_3: "
+  },
+  {
+    "entity": "readmission within the last 30 days",
+    "entity_type": "PROCEDURE",
+    "assertion": "",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "units",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 221,
+            "end": 249
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: readmission within the last 30 days:: header_3: no previous admission in last 30 days (patient has prior er admits on 6/6, 5/17, 2/10 of this year.)"
+  },
+  {
+    "entity": "no previous admission in last 30 days",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2017-05-01",
+          "entity_score": 1.0,
+          "entity_type": "derived_date",
+          "entity_span": {
+            "start": 221,
+            "end": 236
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: readmission within the last 30 days:: header_3: no previous admission in last 30 days (patient has prior er admits on 6/6, 5/17, 2/10 of this year.)"
+  },
+  {
+    "entity": "er admits",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2017-05-01",
+          "entity_score": 1.0,
+          "entity_type": "derived_date",
+          "entity_span": {
+            "start": 221,
+            "end": 236
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: readmission within the last 30 days:: header_3: no previous admission in last 30 days (patient has prior er admits on 6/6, 5/17, 2/10 of this year.)"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: contact information:: header_3: "
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: contact information:: header_3: "
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: name:: header_3: [patient_name]"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: phone:: header_3: [phone]"
+  },
+  {
+    "entity": "notes from [encounter_date] through [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: phone:: header_3: [phone]"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: discharge needs assessment:: header_3: "
+  },
+  {
+    "entity": "discharge needs assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: discharge needs assessment:: header_3: "
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: barriers to discharge:: header_3: rle wound? left ankle cellultis. iv abx. independent"
+  },
+  {
+    "entity": "barriers to discharge",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: barriers to discharge:: header_3: rle wound? left ankle cellultis. iv abx. independent"
+  },
+  {
+    "entity": "rle wound",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: barriers to discharge:: header_3: rle wound? left ankle cellultis. iv abx. independent"
+  },
+  {
+    "entity": "left ankle cellultis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: barriers to discharge:: header_3: rle wound? left ankle cellultis. iv abx. independent"
+  },
+  {
+    "entity": "iv abx",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "iv",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 170,
+            "end": 172
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: barriers to discharge:: header_3: rle wound? left ankle cellultis. iv abx. independent"
+  },
+  {
+    "entity": "independent",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: barriers to discharge:: header_3: rle wound? left ankle cellultis. iv abx. independent"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: cm/sw discharge plan progress:: header_3: "
+  },
+  {
+    "entity": "cm/sw discharge plan progress",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: cm/sw discharge plan progress:: header_3: "
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: steps taken towards dc:: header_3: unknown if patient his homeless as patient did not let sw/cm complete assessment, patient reported he is awaiting his pain medication. patient appeared to have dirt around nails and belongings in grocery bags."
+  },
+  {
+    "entity": "homeless",
+    "entity_type": "SDOH",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: steps taken towards dc:: header_3: unknown if patient his homeless as patient did not let sw/cm complete assessment, patient reported he is awaiting his pain medication. patient appeared to have dirt around nails and belongings in grocery bags."
+  },
+  {
+    "entity": "dirt around nails and belongings in grocery bags",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: steps taken towards dc:: header_3: unknown if patient his homeless as patient did not let sw/cm complete assessment, patient reported he is awaiting his pain medication. patient appeared to have dirt around nails and belongings in grocery bags."
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: next steps:: header_3: awaiting next plan of care."
+  },
+  {
+    "entity": "awaiting next plan of care",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: next steps:: header_3: awaiting next plan of care."
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: planned discharge:: header_3: "
+  },
+  {
+    "entity": "planned discharge",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: planned discharge:: header_3: "
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: planned disposition:: header_3: home or self care [lj.1]"
+  },
+  {
+    "entity": "home or self care",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) - Table__page_no__2",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) header_1: :: header_2: planned disposition:: header_3: home or self care [lj.1]"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued)__page_no__4",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) (continued)"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "200",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "No Heading Found :: Plan of Care by [PROVIDER_NAME], MSW at [ENCOUNTER_DATE] 1452 (continued)__page_no__4",
+    "text": "[encounter_date] 1144"
+  },
+  {
+    "entity": "cm/sw discharge plan progress",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress__page_no__4",
+    "text": "cm/sw discharge plan progress | steps taken towards dc | sw alerted that patient is homeless with dc order. patient was not marked as homeless prior to today. will review and discuss with cm.[nl.1] |"
+  },
+  {
+    "entity": "homeless",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress__page_no__4",
+    "text": "cm/sw discharge plan progress | steps taken towards dc | sw alerted that patient is homeless with dc order. patient was not marked as homeless prior to today. will review and discuss with cm.[nl.1] |"
+  },
+  {
+    "entity": "homeless",
+    "entity_type": "SDOH",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress__page_no__4",
+    "text": "cm/sw discharge plan progress | steps taken towards dc | sw alerted that patient is homeless with dc order. patient was not marked as homeless prior to today. will review and discuss with cm.[nl.1] |"
+  },
+  {
+    "entity": "homeless resources",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key__page_no__4",
+    "text": "11:58 sw provided pt with homeless resources. [ah.2] ah.1 - [provider_name], msw on [encounter_date] 1154 ah.2 - [provider_name], msw on [encounter_date] 1158"
+  },
+  {
+    "entity": "homeless",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "has no famly or friends that he can stay with",
+    "entity_type": "SDOH",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "independent",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "does not use any dme's",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "substance abuse",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "bipolar disorder",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "not taking any medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "homeless liaison",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: next steps:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: sw will remain available."
+  },
+  {
+    "entity": "homeless",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "has no famly or friends that he can stay with",
+    "entity_type": "SDOH",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "independent",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "does not use any dme's",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "substance abuse",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "bipolar disorder",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "not taking any medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "homeless liaison",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Attribution Key - Table__page_no__4",
+    "text": "attribution key : :: steps taken towards dc: patient/family in agreement with plan:: sw spoke with the pt at bedside to address any needs or coping difficulties. pt stated that he is homeless and has no famly or friends that he can stay with. pt stated that he is independent and does not use any dme's. pt denied substance abuse and stated that he has a bipolar disorder. pt stated that he never received a treatment for mental health and he is not taking any medications. sw informed homeless liaison regarding pt's living condition and d/c order.: yes[ah.1]"
+  },
+  {
+    "entity": "rcvd",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__5",
+    "text": "pg:5/10 * rcvd:[encounter_date] 10:34:10 am pt * job:ct18552957817-[encounter_date]10581-174-17 * csid:psjh_epic * ani:[phone] * dur:07-04 mm-ss [encounter_date] 13:33 psjh_epic 5/1"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued)__page_no__5",
+    "text": "cm/sw discharge plan progress attribution key nl.1 - [provider_name], msw on [encounter_date] 1534 [encounter_date] 1529"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: Plan of Care by [PROVIDER_NAME], MSW at [ENCOUNTER_DATE] 1558__page_no__5",
+    "text": "[encounter_date] 1556"
+  },
+  {
+    "entity": "cm/sw discharge plan progress",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress__page_no__5",
+    "text": "cm/sw discharge plan progress"
+  },
+  {
+    "entity": "wound care",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "recuperative care",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "ambulation/adl trial",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "iadls",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "able to walk 100ft",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "covid test",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "meds",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "hh set up",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: dc order now on chart and order for hh rn for wound care. referral sent to illumination foundation for recuperative care [phone]/[phone] f. alerted md, rn, and cm that recup care requires ambulation/adl trial (must be iadls and able to walk 100ft), updated covid test, meds to bed, and hh set up."
+  },
+  {
+    "entity": "ambulation/adl trial",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: next steps:: header_3: awaiting response from if. awaiting ambulation/adl trial, covid test, meds to bed and hh set up. [nl.1]"
+  },
+  {
+    "entity": "covid test",
+    "entity_type": "TEST",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: next steps:: header_3: awaiting response from if. awaiting ambulation/adl trial, covid test, meds to bed and hh set up. [nl.1]"
+  },
+  {
+    "entity": "meds",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "1000",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "units",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "No Heading Found :: CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued) - Table__page_no__5",
+    "text": "header_1: :: header_2: next steps:: header_3: awaiting response from if. awaiting ambulation/adl trial, covid test, meds to bed and hh set up. [nl.1]"
+  },
+  {
+    "entity": "d/c issues",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: sw and rn spoke with the pt at bedside to address any d/c issues and needs. pt is refusing to walk and stated that he does not care for going to illumination foundation. pt appeared angry and stated that he is not planning to go anywhere. sw explained to the pt that he has no medical needs to stay in the hospital however, pt is refusing to leave and wants to stay in the hospital."
+  },
+  {
+    "entity": "refusing to walk",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: sw and rn spoke with the pt at bedside to address any d/c issues and needs. pt is refusing to walk and stated that he does not care for going to illumination foundation. pt appeared angry and stated that he is not planning to go anywhere. sw explained to the pt that he has no medical needs to stay in the hospital however, pt is refusing to leave and wants to stay in the hospital."
+  },
+  {
+    "entity": "angry",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: sw and rn spoke with the pt at bedside to address any d/c issues and needs. pt is refusing to walk and stated that he does not care for going to illumination foundation. pt appeared angry and stated that he is not planning to go anywhere. sw explained to the pt that he has no medical needs to stay in the hospital however, pt is refusing to leave and wants to stay in the hospital."
+  },
+  {
+    "entity": "refusing to leave",
+    "entity_type": "SDOH",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress - Table__page_no__5",
+    "text": "header_1: :: header_2: steps taken towards dc:: header_3: sw and rn spoke with the pt at bedside to address any d/c issues and needs. pt is refusing to walk and stated that he does not care for going to illumination foundation. pt appeared angry and stated that he is not planning to go anywhere. sw explained to the pt that he has no medical needs to stay in the hospital however, pt is refusing to leave and wants to stay in the hospital."
+  },
+  {
+    "entity": "sw will remain available",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found :: CM/SW Discharge Plan Progress - Table__page_no__5",
+    "text": "header_1: :: header_2: next steps:: header_3: sw will remain available."
+  },
+  {
+    "entity": "cm/sw discharge plan progress",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__5",
+    "text": "no heading found :: cm/sw discharge plan progress"
+  },
+  {
+    "entity": "cm/sw plan of care notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued)__page_no__6",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) (continued) plan of care by [provider_name], msw at [encounter_date] 1558 (continued)"
+  },
+  {
+    "entity": "plan of care by [provider_name], msw",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CM/SW Plan of Care Notes (Notes from [ENCOUNTER_DATE] through [ENCOUNTER_DATE]) (continued)__page_no__6",
+    "text": "cm/sw plan of care notes (notes from [encounter_date] through [encounter_date]) (continued) plan of care by [provider_name], msw at [encounter_date] 1558 (continued)"
+  },
+  {
+    "entity": "discharge summary notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes__page_no__6",
+    "text": "discharge summary notes"
+  },
+  {
+    "entity": "discharge summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes :: Discharge Summary by [PROVIDER_NAME], DO at [ENCOUNTER_DATE] 2100__page_no__6",
+    "text": "discharge summary notes discharge summary by [provider_name], do at [encounter_date] 2100 author: [provider_name], do filed: [encounter_date] 0656 status: signed service: internal medicine author type: physician date of service: [encounter_date] 2100 creation time: [encounter_date] 0655 editor: [provider_name], do (physician) <page_6_image_2.jpg> <page_6_image_3.jpg> [facility_name] chest and critical care consultants *late entry*"
+  },
+  {
+    "entity": "hospitalist discharge summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Hospitalist Discharge Summary__page_no__6",
+    "text": "hospitalist discharge summary name/age/dob: [patient_name] 69 y.o. [dob] mrn: [mrn] date of admission: [encounter_date] length of stay: 5 date of discharge: [encounter_date] attending physician: [provider_name], do consultants:"
+  },
+  {
+    "entity": "left lower extremity cellulitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Diagnoses:__page_no__6",
+    "text": "discharge diagnoses: \\# left lower extremity cellulitis #mrsa and moderate growth streptococcus pyogenes - noted in wound per chart review"
+  },
+  {
+    "entity": "mrsa",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Diagnoses:__page_no__6",
+    "text": "discharge diagnoses: \\# left lower extremity cellulitis #mrsa and moderate growth streptococcus pyogenes - noted in wound per chart review"
+  },
+  {
+    "entity": "moderate growth streptococcus pyogenes",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Diagnoses:__page_no__6",
+    "text": "discharge diagnoses: \\# left lower extremity cellulitis #mrsa and moderate growth streptococcus pyogenes - noted in wound per chart review"
+  },
+  {
+    "entity": "cellulitis",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Brief HPI:__page_no__6",
+    "text": "brief hpi: [patient_name] is a 69 y.o. year old male admitted with cellulitis."
+  },
+  {
+    "entity": "cellulitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Hospital Course:__page_no__6",
+    "text": "hospital course: patient was admitted for cellulitis, started on empiric antibiotics with symptomatic"
+  },
+  {
+    "entity": "empiric antibiotics",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "started",
+          "entity_score": 1.0,
+          "entity_type": "STATUS",
+          "entity_span": {
+            "start": 54,
+            "end": 61
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Hospital Course:__page_no__6",
+    "text": "hospital course: patient was admitted for cellulitis, started on empiric antibiotics with symptomatic"
+  },
+  {
+    "entity": "rcvd",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Hospital Course:__page_no__6",
+    "text": "hospital course: pg:7/10 * rcvd:[encounter_date] 10:34:10 am pt * job:ct18552957817-20240627103410581-174-17 * csid:psjh_epic * ani:[phone] * dur:07-04 mm-ss [encounter_date] 13:33 psjh_epic 7/:"
+  },
+  {
+    "entity": "discharge summary notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued)__page_no__7",
+    "text": "discharge summary notes (continued)"
+  },
+  {
+    "entity": "arterial us",
+    "entity_type": "MEDICINE",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "hemodynamic significant stenosis",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "cultures",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "mrsa with moderate growth strep pyogenes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "7-day course of linezolid",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "7-day",
+          "entity_score": 1.0,
+          "entity_type": "DURATION",
+          "entity_span": {
+            "start": 397,
+            "end": 402
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "wound care",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "dispo planning",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "follow-up with pcp as outpatient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) :: Discharge Summary by [PROVIDER_NAME] at [ENCOUNTER_DATE] 2100 (continued)__page_no__7",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) improvement. wound care consulted. per previous chart review, arterial us done on [encounter_date] at outside facility with no evidence of hemodynamic significant stenosis. previous cultures at outside facility also showed mrsa with moderate growth strep pyogenes, patient to be dc'd on 7-day course of linezolid. home health ordered for wound care. cm consulted for dispo planning. patient to be dc to recoup care in stable condition with instructions to follow-up with pcp as outpatient."
+  },
+  {
+    "entity": "xr ankle i eft",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedures:__page_no__7",
+    "text": "procedures: no surgery found * radiology results from this hospitalization: recent results (from the past 360 hour(s)) xr ankle i eft 3 + vw"
+  },
+  {
+    "entity": "vw",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedures:__page_no__7",
+    "text": "procedures: no surgery found * radiology results from this hospitalization: recent results (from the past 360 hour(s)) xr ankle i eft 3 + vw"
+  },
+  {
+    "entity": "fracture",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "questionable old healed fracture deformity of the distal fibula",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "plantar calcaneal spur",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "tibiotalar joint effusion",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "medial ankle soft tissue edema with superficial skin irregularity",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "skin ulcer",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "radiopaque foreign body",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: anatomic alignment without fracture. questionable old healed fracture deformity of the distal fibula. plantar calcaneal spur. tibiotalar joint effusion. medial ankle soft tissue edema with superficial skin irregularity. consider skin ulcer. no radiopaque foreign body. electronically signed by: [provider_name] on [encounter_date] 7:00 pm pdt @images@ | | | |"
+  },
+  {
+    "entity": "systolic",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "165",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 56,
+            "end": 59
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Impression: - Table__page_no__7",
+    "text": "impression: header_1: :: header_2: systolic:: header_3: 165 !:: header_4: 107"
+  },
+  {
+    "entity": "diastolic",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "91",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 57,
+            "end": 59
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Impression: - Table__page_no__7",
+    "text": "impression: header_1: :: header_2: diastolic:: header_3: 91 a:: header_4: 73"
+  },
+  {
+    "entity": "pulse",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "74",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 53,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Impression: - Table__page_no__7",
+    "text": "impression: header_1: :: header_2: pulse:: header_3: 74:: header_4: 60"
+  },
+  {
+    "entity": "temp",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "36.3",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 52,
+            "end": 56
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "°c",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 57,
+            "end": 59
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Impression: - Table__page_no__7",
+    "text": "impression: header_1: :: header_2: temp:: header_3: 36.3 °c (97.4 °f):: header_4: 36.9 °c (98.5 °f)"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression: - Table__page_no__7",
+    "text": "impression: : :: vitals:: [encounter_date]:: : [encounter_date]"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "VITAL_NAME",
+    "assertion": "UNCERTAIN",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression: - Table__page_no__7",
+    "text": "impression: : :: vitals:: [encounter_date]:: : [encounter_date]"
+  },
+  {
+    "entity": "rcvd",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression:__page_no__7",
+    "text": "impression: pg:8/10 * rcvd:[encounter_date] 10:34:10 am pt * job:ct18552957817-[encounter_date]10581-174-17 * csid:psjh_epic * ani:[phone] * dur:07-04 mm-ss [encounter_date] 13:33 psjh_epic 8/:"
+  },
+  {
+    "entity": "discharge summary notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued)__page_no__8",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name], do at [encounter_date] 2100 (continued)"
+  },
+  {
+    "entity": "discharge summary by [provider_name]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued)__page_no__8",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name], do at [encounter_date] 2100 (continued)"
+  },
+  {
+    "entity": "medications reconciled",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Medications Reconciled upon Discharge:__page_no__8",
+    "text": "medications reconciled upon discharge:"
+  },
+  {
+    "entity": "discharge medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Medications__page_no__8",
+    "text": "discharge medications"
+  },
+  {
+    "entity": "discontinued medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discontinued Medications__page_no__8",
+    "text": "discontinued medications cefdinir 300 mg capsule aka: omnicef code status/advance directive (pertinent discussions/declarations): prior disposition: home with home health condition on discharge: stable"
+  },
+  {
+    "entity": "cefdinir 300 mg capsule",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "300",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 34,
+            "end": 37
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 38,
+            "end": 40
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "discontinued",
+          "entity_score": 1.0,
+          "entity_type": "STATUS",
+          "entity_span": {
+            "start": 0,
+            "end": 12
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "capsule",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 41,
+            "end": 48
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 4
+    },
+    "heading": "Discontinued Medications__page_no__8",
+    "text": "discontinued medications cefdinir 300 mg capsule aka: omnicef code status/advance directive (pertinent discussions/declarations): prior disposition: home with home health condition on discharge: stable"
+  },
+  {
+    "entity": "advance directive",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discontinued Medications__page_no__8",
+    "text": "discontinued medications cefdinir 300 mg capsule aka: omnicef code status/advance directive (pertinent discussions/declarations): prior disposition: home with home health condition on discharge: stable"
+  },
+  {
+    "entity": "discharge summary notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued) - Table__page_no__8",
+    "text": "discharge summary notes (continued) header_1: :: header_2: resp:: header_3: 18:: header_4: 18"
+  },
+  {
+    "entity": "resp",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "18",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 76,
+            "end": 78
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Discharge Summary Notes (continued) - Table__page_no__8",
+    "text": "discharge summary notes (continued) header_1: :: header_2: resp:: header_3: 18:: header_4: 18"
+  },
+  {
+    "entity": "spo2",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "96",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 76,
+            "end": 78
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "%",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 78,
+            "end": 79
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Discharge Summary Notes (continued) - Table__page_no__8",
+    "text": "discharge summary notes (continued) header_1: :: header_2: spo2:: header_3: 96%:: header_4: 95 %"
+  },
+  {
+    "entity": "docusate-senna 50-8.6 mg per tablet",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "50-8.6",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 45,
+            "end": 51
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 52,
+            "end": 54
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "2 tablets",
+          "entity_score": 1.0,
+          "entity_type": "DOSE",
+          "entity_span": {
+            "start": 75,
+            "end": 84
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "by mouth",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 85,
+            "end": 93
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "2 times daily",
+          "entity_score": 1.0,
+          "entity_type": "FREQUENCY",
+          "entity_span": {
+            "start": 94,
+            "end": 107
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "tablet",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 59,
+            "end": 65
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "30",
+          "entity_score": 1.0,
+          "entity_type": "DURATION",
+          "entity_span": {
+            "start": 112,
+            "end": 114
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 7
+    },
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: docusate-senna 50-8.6 mg per tablet:: : take 2 tablets by mouth 2 times daily for 30"
+  },
+  {
+    "entity": "senokot-s",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "new",
+          "entity_score": 1.0,
+          "entity_type": "STATUS",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: aka: senokot-s:: : "
+  },
+  {
+    "entity": "linezolid 600 mg tablet",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "600",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 40,
+            "end": 43
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 44,
+            "end": 46
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "1 tablet",
+          "entity_score": 1.0,
+          "entity_type": "DOSE",
+          "entity_span": {
+            "start": 63,
+            "end": 71
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "by mouth",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 72,
+            "end": 80
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "2 times daily",
+          "entity_score": 1.0,
+          "entity_type": "FREQUENCY",
+          "entity_span": {
+            "start": 81,
+            "end": 94
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "tablet",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 47,
+            "end": 53
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "7",
+          "entity_score": 1.0,
+          "entity_type": "DURATION",
+          "entity_span": {
+            "start": 99,
+            "end": 100
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 7
+    },
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: linezolid 600 mg tablet:: : take 1 tablet by mouth 2 times daily for 7"
+  },
+  {
+    "entity": "aka",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: aka: zyvox:: : "
+  },
+  {
+    "entity": "zyvox",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "new",
+          "entity_score": 1.0,
+          "entity_type": "STATUS",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: aka: zyvox:: : "
+  },
+  {
+    "entity": "oxycodone 5 mg tablet",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "5",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 40,
+            "end": 41
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 42,
+            "end": 44
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "1 tablet",
+          "entity_score": 1.0,
+          "entity_type": "DOSE",
+          "entity_span": {
+            "start": 61,
+            "end": 69
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "by mouth",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 70,
+            "end": 78
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "every 4 hours",
+          "entity_score": 1.0,
+          "entity_type": "FREQUENCY",
+          "entity_span": {
+            "start": 79,
+            "end": 92
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "tablet",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 45,
+            "end": 51
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 6
+    },
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: oxycodone 5 mg tablet:: : take 1 tablet by mouth every 4 hours as"
+  },
+  {
+    "entity": "aka",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: aka: roxicodone:: : "
+  },
+  {
+    "entity": "roxicodone",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "new",
+          "entity_score": 1.0,
+          "entity_type": "STATUS",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "New Medications - Table__page_no__8",
+    "text": "new medications : :: details: aka: roxicodone:: : "
+  },
+  {
+    "entity": "rcvd",
+    "entity_type": "PROCEDURE",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "New Medications__page_no__8",
+    "text": "new medications pg:9/10 * rcvd:[encounter_date] 10:34:10 am pt * job:ct18552957817-20240627103410581-174-17 * csid:psjh_epic * ani:[phone] * dur:07-04 mm-ss [encounter_date] 13:33 psjh_epic 9/1"
+  },
+  {
+    "entity": "discharge summary notes",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued)__page_no__9",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) none"
+  },
+  {
+    "entity": "discharge summary by [provider_name]",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge Summary Notes (continued)__page_no__9",
+    "text": "discharge summary notes (continued) discharge summary by [provider_name] at [encounter_date] 2100 (continued) none"
+  },
+  {
+    "entity": "home health rn",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Services Ordered__page_no__9",
+    "text": "services ordered home health services: home health rn"
+  },
+  {
+    "entity": "discharge follow up",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge follow up:__page_no__9",
+    "text": "discharge follow up: physician no schedule an appointment as soon as possible for a visit post hospital discharge follow up with your primary care physician [provider_name] [address] [phone] home health nurse will reach out to you within 24-48 hours to arrange the time for the visit time spent on discharge and coordination of post-hospital care: 40 minutes electronically signed by: [provider_name], do, [encounter_date] at 6:55 am pdt portions of this chart may have been created with dragon voice recognition software. occasional wrong-word or \"sound-alike\" substitutions may have occurred due to the inherent limitations of voice recognition software. please read the chart carefully and recognize, using context, where these substitutions have occurred. [nt.1] signed by [provider_name] on [encounter_date] 0656 attribution key nt. 1 - [provider_name] on [encounter_date] 0655"
+  },
+  {
+    "entity": "hospital discharge follow up with your primary care physician",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge follow up:__page_no__9",
+    "text": "discharge follow up: physician no schedule an appointment as soon as possible for a visit post hospital discharge follow up with your primary care physician [provider_name] [address] [phone] home health nurse will reach out to you within 24-48 hours to arrange the time for the visit time spent on discharge and coordination of post-hospital care: 40 minutes electronically signed by: [provider_name], do, [encounter_date] at 6:55 am pdt portions of this chart may have been created with dragon voice recognition software. occasional wrong-word or \"sound-alike\" substitutions may have occurred due to the inherent limitations of voice recognition software. please read the chart carefully and recognize, using context, where these substitutions have occurred. [nt.1] signed by [provider_name] on [encounter_date] 0656 attribution key nt. 1 - [provider_name] on [encounter_date] 0655"
+  },
+  {
+    "entity": "discharge follow up",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge follow up: :: DME Orders (From admission, onward)__page_no__9",
+    "text": "discharge follow up: dme orders (from admission, onward) none op referrals (services) (from admission, onward)"
+  },
+  {
+    "entity": "discharge follow up",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Discharge follow up: :: DME Orders (From admission, onward) - Table__page_no__9",
+    "text": "discharge follow up: : :: start: [patient_name] (mr # [mrn]) printed at [encounter_date] 10:31 am:: ordered: page 8 of"
+  },
+  {
+    "entity": "discharge follow up",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "200",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ml",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "No Heading Found__page_no__9",
+    "text": "discharge follow up: :: dme orders (from admission, onward)"
+  },
+  {
+    "entity": "dme orders",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__9",
+    "text": "discharge follow up: :: dme orders (from admission, onward)"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT__page_no__10",
+    "text": "op referrals (services) (continued) (from admission, onward) [encounter_date] 0000 referral to home health - outpatient"
+  },
+  {
+    "entity": "referral to home health - outpatient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT__page_no__10",
+    "text": "op referrals (services) (continued) (from admission, onward) [encounter_date] 0000 referral to home health - outpatient"
+  },
+  {
+    "entity": "encounter 2",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 2__page_no__10",
+    "text": "encounter 2"
+  },
+  {
+    "entity": "primary diagnosis for home health",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: primary diagnosis for home health:: answer [encounter_date]: cellulitis"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: primary diagnosis for home health:: answer [encounter_date]: cellulitis"
+  },
+  {
+    "entity": "cellulitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: primary diagnosis for home health:: answer [encounter_date]: cellulitis"
+  },
+  {
+    "entity": "patient is homebound because of",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: patient is homebound because of:: answer [encounter_date]: see primary diagnosis for home health"
+  },
+  {
+    "entity": "home health",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: patient is homebound because of:: answer [encounter_date]: see primary diagnosis for home health"
+  },
+  {
+    "entity": "homebound status",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: clinical findings that support homebound status:: answer [encounter_date]: needs assistance of another individual"
+  },
+  {
+    "entity": "needs assistance of another individual",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: clinical findings that support homebound status:: answer [encounter_date]: needs assistance of another individual"
+  },
+  {
+    "entity": "homebound because he/she cannot leave home without the assistance of another individual and leaving home requires a considerable and taxing effort",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: patient is homebound because he/she cannot leave home without the assistance of another individual and leaving home requires a considerable and taxing effort. patient needs the assistance of another individual to leave home because:: answer [encounter_date]: high fall risk due to gait instability and muscle weakness caused by: (use comment)"
+  },
+  {
+    "entity": "patient needs the assistance of another individual to leave home",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: patient is homebound because he/she cannot leave home without the assistance of another individual and leaving home requires a considerable and taxing effort. patient needs the assistance of another individual to leave home because:: answer [encounter_date]: high fall risk due to gait instability and muscle weakness caused by: (use comment)"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: patient is homebound because he/she cannot leave home without the assistance of another individual and leaving home requires a considerable and taxing effort. patient needs the assistance of another individual to leave home because:: answer [encounter_date]: high fall risk due to gait instability and muscle weakness caused by: (use comment)"
+  },
+  {
+    "entity": "high fall risk due to gait instability and muscle weakness caused by",
+    "entity_type": "PROBLEM",
+    "assertion": "",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) : :: question face to face encounter date: patient is homebound because he/she cannot leave home without the assistance of another individual and leaving home requires a considerable and taxing effort. patient needs the assistance of another individual to leave home because:: answer [encounter_date]: high fall risk due to gait instability and muscle weakness caused by: (use comment)"
+  },
+  {
+    "entity": "skilled nursing",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: primary services needed:: header_3: skilled nursing"
+  },
+  {
+    "entity": "home safety eval and needs assessment",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: skilled nursing:: header_3: home safety eval and needs assessment"
+  },
+  {
+    "entity": "skilled nursing",
+    "entity_type": "IMMUNIZATION",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: skilled nursing:: header_3: medication management"
+  },
+  {
+    "entity": "medication management",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: skilled nursing:: header_3: medication management"
+  },
+  {
+    "entity": "skilled nursing",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: skilled nursing:: header_3: assess/instruct wound care/incision care"
+  },
+  {
+    "entity": "wound care",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: skilled nursing:: header_3: assess/instruct wound care/incision care"
+  },
+  {
+    "entity": "incision care",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "200",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "OP Referrals (Services) (continued) (From admission, onward) :: [ENCOUNTER_DATE] 0000 Referral to Home Health - OUTPATIENT - Table__page_no__9",
+    "text": "op referrals (services) (continued) (from admission, onward) header_1: :: header_2: skilled nursing:: header_3: assess/instruct wound care/incision care"
+  },
+  {
+    "entity": "pharmacy chart note",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Pharmacy Chart Note__page_no__11",
+    "text": "pharmacy chart note patient: [patient_name] dob: [dob] age: 69 years [patient_name] was seen in our office today, [encounter_date]. the following is a summary of today's visit."
+  },
+  {
+    "entity": "encounter for medication review",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessment/Plan__page_no__11",
+    "text": "assessment/plan | detail type description 1. assessment encounter for medication review (z79.899). |"
+  },
+  {
+    "entity": "medication review",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessment/Plan__page_no__11",
+    "text": "assessment/plan | detail type description 1. assessment encounter for medication review (z79.899). |"
+  },
+  {
+    "entity": "post hospital med rec post hospital discharge medication reconciliation",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Post Hospital Med Rec__page_no__11",
+    "text": "history of present illness 1. post hospital med rec post hospital discharge medication reconciliation completed. medications have been reviewed and reconciled based on pharmacy claims (ingeniorx/surescripts) and discharge summary when available."
+  },
+  {
+    "entity": "medication reconciliation",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Post Hospital Med Rec__page_no__11",
+    "text": "history of present illness 1. post hospital med rec post hospital discharge medication reconciliation completed. medications have been reviewed and reconciled based on pharmacy claims (ingeniorx/surescripts) and discharge summary when available."
+  },
+  {
+    "entity": " medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Post Hospital Med Rec__page_no__11",
+    "text": "history of present illness 1. post hospital med rec post hospital discharge medication reconciliation completed. medications have been reviewed and reconciled based on pharmacy claims (ingeniorx/surescripts) and discharge summary when available."
+  },
+  {
+    "entity": "medications have been reviewed and reconciled",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Post Hospital Med Rec__page_no__11",
+    "text": "history of present illness 1. post hospital med rec post hospital discharge medication reconciliation completed. medications have been reviewed and reconciled based on pharmacy claims (ingeniorx/surescripts) and discharge summary when available."
+  },
+  {
+    "entity": "active medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Active Medications__page_no__11",
+    "text": "active medications none. medications reconciled today. patient is on no medications."
+  },
+  {
+    "entity": " medications",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Active Medications__page_no__11",
+    "text": "active medications none. medications reconciled today. patient is on no medications."
+  },
+  {
+    "entity": "medications reconciled",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Active Medications__page_no__11",
+    "text": "active medications none. medications reconciled today. patient is on no medications."
+  },
+  {
+    "entity": "medications reviewed at this visit",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Medications reviewed at this visit__page_no__11",
+    "text": "medications reviewed at this visit document generated by: [provider_name] [encounter_date] 02:52 pm if you would like additional information, please contact our [facility_name] location[phone] electronically signed by [provider_name] rph on [encounter_date] 02:52 pm [facility_name] {chp_loczip} [patient_name], [dob] page: 1/1"
+  },
+  {
+    "entity": "medications reviewed",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Medications reviewed at this visit__page_no__11",
+    "text": "medications reviewed at this visit document generated by: [provider_name] [encounter_date] 02:52 pm if you would like additional information, please contact our [facility_name] location[phone] electronically signed by [provider_name] rph on [encounter_date] 02:52 pm [facility_name] {chp_loczip} [patient_name], [dob] page: 1/1"
+  }
+]

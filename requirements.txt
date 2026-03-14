@@ -1,0 +1,6 @@
+# Core
+openai>=1.30.0          # OpenRouter is OpenAI-SDK-compatible
+pinecone>=3.0.0
+python-dotenv>=1.0.0
+tiktoken>=0.7.0         # accurate token counting for chunker
+tqdm>=4.66.0

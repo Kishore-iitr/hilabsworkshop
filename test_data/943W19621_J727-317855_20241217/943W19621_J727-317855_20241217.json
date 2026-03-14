@@ -1,0 +1,1194 @@
+[
+  {
+    "entity": "acute abdominal pain",
+    "entity_type": "MEDICINE",
+    "assertion": "NEGATIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "100",
+          "entity_score": 0.8,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "units",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Chief Complaint:__page_no__1",
+    "text": "chief complaint: the patient presented with acute abdominal pain."
+  },
+  {
+    "entity": "hypertension",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness:__page_no__1",
+    "text": "history of present illness: [patient_name] is a [age]-year-old individual with a history of hypertension and diabetes, who presented to [facility_name] on [encounter_date] with severe abdominal pain that started two days prior."
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness:__page_no__1",
+    "text": "history of present illness: [patient_name] is a [age]-year-old individual with a history of hypertension and diabetes, who presented to [facility_name] on [encounter_date] with severe abdominal pain that started two days prior."
+  },
+  {
+    "entity": "severe abdominal pain",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness:__page_no__1",
+    "text": "history of present illness: [patient_name] is a [age]-year-old individual with a history of hypertension and diabetes, who presented to [facility_name] on [encounter_date] with severe abdominal pain that started two days prior."
+  },
+  {
+    "entity": "metformin 500 mg",
+    "entity_type": "SOCIAL_HISTORY",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 25,
+            "end": 28
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 29,
+            "end": 31
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Medications:__page_no__1",
+    "text": "medications: - metformin 500 mg - lisinopril 10 mg"
+  },
+  {
+    "entity": "lisinopril 10 mg",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "10",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 45,
+            "end": 47
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 29,
+            "end": 31
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Medications:__page_no__1",
+    "text": "medications: - metformin 500 mg - lisinopril 10 mg"
+  },
+  {
+    "entity": "penicillin",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Allergies:__page_no__1",
+    "text": "allergies: - penicillin"
+  },
+  {
+    "entity": "bp",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "140/90",
+          "entity_score": 0.85,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "RULES"
+        },
+        {
+          "entity": "",
+          "entity_score": null,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "RULES"
+        },
+        {
+          "entity": "140/90",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 3
+    },
+    "heading": "Physical Examination:__page_no__1",
+    "text": "physical examination: - vital signs: bp 140/90, hr 88, temp 98.6°f - abdominal exam: tenderness in the right lower quadrant"
+  },
+  {
+    "entity": "systolic blood pressure",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "140",
+          "entity_score": 0.85,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "RULES"
+        },
+        {
+          "entity": "",
+          "entity_score": null,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "RULES"
+        },
+        {
+          "entity": "140",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 3
+    },
+    "heading": "Physical Examination:__page_no__1",
+    "text": "physical examination: - vital signs: bp 140/90, hr 88, temp 98.6°f - abdominal exam: tenderness in the right lower quadrant"
+  },
+  {
+    "entity": "diastolic blood pressure",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "90",
+          "entity_score": 0.85,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "RULES"
+        },
+        {
+          "entity": "",
+          "entity_score": null,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "RULES"
+        },
+        {
+          "entity": "90",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 40,
+            "end": 46
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 3
+    },
+    "heading": "Physical Examination:__page_no__1",
+    "text": "physical examination: - vital signs: bp 140/90, hr 88, temp 98.6°f - abdominal exam: tenderness in the right lower quadrant"
+  },
+  {
+    "entity": "hr",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "88",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 51,
+            "end": 53
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Physical Examination:__page_no__1",
+    "text": "physical examination: - vital signs: bp 140/90, hr 88, temp 98.6°f - abdominal exam: tenderness in the right lower quadrant"
+  },
+  {
+    "entity": "temp",
+    "entity_type": "SDOH",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "98.6",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_VALUE",
+          "entity_span": {
+            "start": 60,
+            "end": 64
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "°f",
+          "entity_score": 1.0,
+          "entity_type": "VITAL_NAME_UNIT",
+          "entity_span": {
+            "start": 64,
+            "end": 66
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Physical Examination:__page_no__1",
+    "text": "physical examination: - vital signs: bp 140/90, hr 88, temp 98.6°f - abdominal exam: tenderness in the right lower quadrant"
+  },
+  {
+    "entity": "tenderness in the right lower quadrant",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Physical Examination:__page_no__1",
+    "text": "physical examination: - vital signs: bp 140/90, hr 88, temp 98.6°f - abdominal exam: tenderness in the right lower quadrant"
+  },
+  {
+    "entity": "suspected appendicitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessment and Plan:__page_no__1",
+    "text": "assessment and plan: - suspected appendicitis - plan for abdominal ultrasound and surgical consultation"
+  },
+  {
+    "entity": "abdominal ultrasound",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessment and Plan:__page_no__1",
+    "text": "assessment and plan: - suspected appendicitis - plan for abdominal ultrasound and surgical consultation"
+  },
+  {
+    "entity": "surgical consultation",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessment and Plan:__page_no__1",
+    "text": "assessment and plan: - suspected appendicitis - plan for abdominal ultrasound and surgical consultation"
+  },
+  {
+    "entity": "patient to return to [facility_name] for follow-up on [encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up:__page_no__1",
+    "text": "follow-up: patient to return to [facility_name] for follow-up on [encounter_date]. insurance information: - insurance id: [insurance_id] account number: [account_number] <page_1_image_1.jpg>"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report__page_no__1",
+    "text": "colonoscopy report"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report :: Anesthesia Provider:__page_no__1",
+    "text": "colonoscopy report anesthesia provider: nurse(s): staff:"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report :: Indications:__page_no__1",
+    "text": "colonoscopy report indications: administered"
+  },
+  {
+    "entity": "colon cancer screening",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Medications:__page_no__1",
+    "text": "medications: colon cancer screening (low/average risk): v76.51 . z12.11 see anesthesia record"
+  },
+  {
+    "entity": "anesthesia record",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Medications:__page_no__1",
+    "text": "medications: colon cancer screening (low/average risk): v76.51 . z12.11 see anesthesia record"
+  },
+  {
+    "entity": "screening colonoscopy",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedure:__page_no__1",
+    "text": "procedure: this is a average risk patient undergoing screening colonoscopy. indications, preparation and potential complications were explained to the patient, who indicated the procedure, and signed the corresponding consent forms. mac was administered by anesthesiologist. continuous used. the pulse understanding and blood pressure monitoring were used throughout the procedure. supplemental oxygen introduced was through quality rectum of oximetry good. patient was placed in left lateral decubitus position. the colonoscope was the appendiceal orifice and and preparation advanced was under direct visualization until cecum was reached the cecal sling folds were seen. printed on [encounter_date] [patient_name], [mrn], [dob]"
+  },
+  {
+    "entity": "pulse understanding",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedure:__page_no__1",
+    "text": "procedure: this is a average risk patient undergoing screening colonoscopy. indications, preparation and potential complications were explained to the patient, who indicated the procedure, and signed the corresponding consent forms. mac was administered by anesthesiologist. continuous used. the pulse understanding and blood pressure monitoring were used throughout the procedure. supplemental oxygen introduced was through quality rectum of oximetry good. patient was placed in left lateral decubitus position. the colonoscope was the appendiceal orifice and and preparation advanced was under direct visualization until cecum was reached the cecal sling folds were seen. printed on [encounter_date] [patient_name], [mrn], [dob]"
+  },
+  {
+    "entity": "blood pressure monitoring",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedure:__page_no__1",
+    "text": "procedure: this is a average risk patient undergoing screening colonoscopy. indications, preparation and potential complications were explained to the patient, who indicated the procedure, and signed the corresponding consent forms. mac was administered by anesthesiologist. continuous used. the pulse understanding and blood pressure monitoring were used throughout the procedure. supplemental oxygen introduced was through quality rectum of oximetry good. patient was placed in left lateral decubitus position. the colonoscope was the appendiceal orifice and and preparation advanced was under direct visualization until cecum was reached the cecal sling folds were seen. printed on [encounter_date] [patient_name], [mrn], [dob]"
+  },
+  {
+    "entity": "supplemental oxygen",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedure:__page_no__1",
+    "text": "procedure: this is a average risk patient undergoing screening colonoscopy. indications, preparation and potential complications were explained to the patient, who indicated the procedure, and signed the corresponding consent forms. mac was administered by anesthesiologist. continuous used. the pulse understanding and blood pressure monitoring were used throughout the procedure. supplemental oxygen introduced was through quality rectum of oximetry good. patient was placed in left lateral decubitus position. the colonoscope was the appendiceal orifice and and preparation advanced was under direct visualization until cecum was reached the cecal sling folds were seen. printed on [encounter_date] [patient_name], [mrn], [dob]"
+  },
+  {
+    "entity": "oximetry",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedure:__page_no__1",
+    "text": "procedure: this is a average risk patient undergoing screening colonoscopy. indications, preparation and potential complications were explained to the patient, who indicated the procedure, and signed the corresponding consent forms. mac was administered by anesthesiologist. continuous used. the pulse understanding and blood pressure monitoring were used throughout the procedure. supplemental oxygen introduced was through quality rectum of oximetry good. patient was placed in left lateral decubitus position. the colonoscope was the appendiceal orifice and and preparation advanced was under direct visualization until cecum was reached the cecal sling folds were seen. printed on [encounter_date] [patient_name], [mrn], [dob]"
+  },
+  {
+    "entity": "colonoscope",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Procedure:__page_no__1",
+    "text": "procedure: this is a average risk patient undergoing screening colonoscopy. indications, preparation and potential complications were explained to the patient, who indicated the procedure, and signed the corresponding consent forms. mac was administered by anesthesiologist. continuous used. the pulse understanding and blood pressure monitoring were used throughout the procedure. supplemental oxygen introduced was through quality rectum of oximetry good. patient was placed in left lateral decubitus position. the colonoscope was the appendiceal orifice and and preparation advanced was under direct visualization until cecum was reached the cecal sling folds were seen. printed on [encounter_date] [patient_name], [mrn], [dob]"
+  },
+  {
+    "entity": "olympus pcf-h180al",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "LAKE CUMBERLAND - Table__page_no__1",
+    "text": "lake cumberland header_1: :: header_2: instrument(s)::: header_3: olympus pcf-h180al (4174)(sn 2904174)"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "750",
+          "entity_score": 0.8,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "units",
+          "entity_score": 0.8,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Colonoscopy Report - Table__page_no__1",
+    "text": "colonoscopy report : :: date:: patient name::: [encounter_date] 7:30 am: [patient_name]"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report - Table__page_no__1",
+    "text": "colonoscopy report : :: date:: patient name::: [encounter_date] 7:30 am: [patient_name]"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report - Table__page_no__1",
+    "text": "colonoscopy report : :: date:: patient id::: [encounter_date] 7:30 am: [mrn]"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report - Table__page_no__1",
+    "text": "colonoscopy report : :: date:: patient id::: [encounter_date] 7:30 am: [mrn]"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report - Table__page_no__1",
+    "text": "colonoscopy report : :: date:: endoscopist(s)::: [encounter_date] 7:30 am: [provider_name], md"
+  },
+  {
+    "entity": "colonoscopy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report__page_no__1",
+    "text": "colonoscopy report the ileo-cecal valve were identified. the colonoscope was retroflexed within the rectum. careful visualization was performed as the instrument was withdrawn. patient tolerance to procedure was excellent. the procedure was not difficult. digital exam was normal"
+  },
+  {
+    "entity": "colonoscope",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report__page_no__1",
+    "text": "colonoscopy report the ileo-cecal valve were identified. the colonoscope was retroflexed within the rectum. careful visualization was performed as the instrument was withdrawn. patient tolerance to procedure was excellent. the procedure was not difficult. digital exam was normal"
+  },
+  {
+    "entity": "digital exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Colonoscopy Report__page_no__1",
+    "text": "colonoscopy report the ileo-cecal valve were identified. the colonoscope was retroflexed within the rectum. careful visualization was performed as the instrument was withdrawn. patient tolerance to procedure was excellent. the procedure was not difficult. digital exam was normal"
+  },
+  {
+    "entity": "excavated lesions",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "multiple non-bleeding diverticula",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "localized ulceration",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "granularity",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "erythema",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "bleeding",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "NEGATIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "cold forceps biopsies",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "sessile polyps of benign appearance",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "transverse protruding lesions colon",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "single-piece polypectomy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "cold snare",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "polyps",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "small grade 1 internal hemorrhoids",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Findings:__page_no__2",
+    "text": "findings: excavated lesions multiple non-bleeding diverticula were seen in the sigmoid colon. localized ulceration, granularity and erythema with no bleeding were noted in the ascending colon. mucosa multiple cold forceps biopsies were performed for histology. two sessile polyps of benign appearance ranging in size from 5 mm to 6 mm were found in the transverse protruding lesions colon. a single-piece polypectomy was performed using a cold snare. the polyps were completely removed. small grade 1 internal hemorrhoids were noted."
+  },
+  {
+    "entity": "pathology",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Limitations/Complications:__page_no__2",
+    "text": "limitations/complications: pathology was sent to lab, waiting for results there were no apparent limitations or complications"
+  },
+  {
+    "entity": "polyps (5 mm to 6 mm) in the transverse colon",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "polypectomy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "diverticulosis of the sigmoid colon",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "grade 1 internal hemorrhoids",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "ulceration",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "granularity",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "erythema in the ascending colon",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "biopsy",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impressions:__page_no__2",
+    "text": "impressions: polyps (5 mm to 6 mm) in the transverse colon. (polypectomy). diverticulosis of the sigmoid colon. grade 1 internal hemorrhoids. ulceration, granularity and erythema in the ascending colon. (biopsy)."
+  },
+  {
+    "entity": "follow-up as scheduled",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Plan:__page_no__2",
+    "text": "plan: follow-up as scheduled"
+  },
+  {
+    "entity": "biopsy in the ascending colon",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimens:__page_no__2",
+    "text": "specimens: jar # 1: biopsy in the ascending colon findings: colitis test(s) requested: histology jar # 2 : polypectomy in the transverse colon findings: polyp test(s) requested: histology comments: x2"
+  },
+  {
+    "entity": "colitis test(s)",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimens:__page_no__2",
+    "text": "specimens: jar # 1: biopsy in the ascending colon findings: colitis test(s) requested: histology jar # 2 : polypectomy in the transverse colon findings: polyp test(s) requested: histology comments: x2"
+  },
+  {
+    "entity": "polypectomy in the transverse colon",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "UNCERTAIN",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimens:__page_no__2",
+    "text": "specimens: jar # 1: biopsy in the ascending colon findings: colitis test(s) requested: histology jar # 2 : polypectomy in the transverse colon findings: polyp test(s) requested: histology comments: x2"
+  },
+  {
+    "entity": "polyp test(s)",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimens:__page_no__2",
+    "text": "specimens: jar # 1: biopsy in the ascending colon findings: colitis test(s) requested: histology jar # 2 : polypectomy in the transverse colon findings: polyp test(s) requested: histology comments: x2"
+  },
+  {
+    "entity": "encounter 2",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 2__page_no__2",
+    "text": "encounter 2"
+  },
+  {
+    "entity": "colon cancer screening",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "CLINICAL PRE OF DIAGNOSTS__page_no__3",
+    "text": "clinical pre of diagnosts colon cancer screening"
+  },
+  {
+    "entity": "ascending colon colitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "SOURCE OF SPECIMEN__page_no__3",
+    "text": "source of specimen 1. hx ascending colon colitis 2. polyp transverse colon x2"
+  },
+  {
+    "entity": "polyp transverse colon x2",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "SOURCE OF SPECIMEN__page_no__3",
+    "text": "source of specimen 1. hx ascending colon colitis 2. polyp transverse colon x2"
+  },
+  {
+    "entity": "biopsy ascending colon colitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "DESCRIPTION__page_no__3",
+    "text": "description the first specimen is submitted in a container of formalin labeled biopsy ascending colon colitis. it consists of tannish tissue measuring 5 x 5mm. the specimen is submitted in its entirety in cassette 1. the second specimen is submitted in a container of formalin labeled polyp transverse colon x2. it consists of tannish tissue measuring 6 x 6mm. the specimen is submitted in its entirety in cassette 2. microscopic examination performed."
+  },
+  {
+    "entity": "tannish tissue",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "500",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 151,
+            "end": 154
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mm",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 156,
+            "end": 158
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "DESCRIPTION__page_no__3",
+    "text": "description the first specimen is submitted in a container of formalin labeled biopsy ascending colon colitis. it consists of tannish tissue measuring 5 x 5mm. the specimen is submitted in its entirety in cassette 1. the second specimen is submitted in a container of formalin labeled polyp transverse colon x2. it consists of tannish tissue measuring 6 x 6mm. the specimen is submitted in its entirety in cassette 2. microscopic examination performed."
+  },
+  {
+    "entity": "formalin labeled polyp transverse colon x2",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "transverse",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 291,
+            "end": 301
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "x2",
+          "entity_score": 1.0,
+          "entity_type": "FREQUENCY",
+          "entity_span": {
+            "start": 308,
+            "end": 310
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "transverse colon",
+          "entity_score": 1.0,
+          "entity_type": "FORM",
+          "entity_span": {
+            "start": 291,
+            "end": 307
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 3
+    },
+    "heading": "DESCRIPTION__page_no__3",
+    "text": "description the first specimen is submitted in a container of formalin labeled biopsy ascending colon colitis. it consists of tannish tissue measuring 5 x 5mm. the specimen is submitted in its entirety in cassette 1. the second specimen is submitted in a container of formalin labeled polyp transverse colon x2. it consists of tannish tissue measuring 6 x 6mm. the specimen is submitted in its entirety in cassette 2. microscopic examination performed."
+  },
+  {
+    "entity": "tannish tissue",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "6",
+          "entity_score": 1.0,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 352,
+            "end": 353
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mm",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 156,
+            "end": 158
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "DESCRIPTION__page_no__3",
+    "text": "description the first specimen is submitted in a container of formalin labeled biopsy ascending colon colitis. it consists of tannish tissue measuring 5 x 5mm. the specimen is submitted in its entirety in cassette 1. the second specimen is submitted in a container of formalin labeled polyp transverse colon x2. it consists of tannish tissue measuring 6 x 6mm. the specimen is submitted in its entirety in cassette 2. microscopic examination performed."
+  },
+  {
+    "entity": "microscopic examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "DESCRIPTION__page_no__3",
+    "text": "description the first specimen is submitted in a container of formalin labeled biopsy ascending colon colitis. it consists of tannish tissue measuring 5 x 5mm. the specimen is submitted in its entirety in cassette 1. the second specimen is submitted in a container of formalin labeled polyp transverse colon x2. it consists of tannish tissue measuring 6 x 6mm. the specimen is submitted in its entirety in cassette 2. microscopic examination performed."
+  },
+  {
+    "entity": "ulceration with inflammation with changes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "PATHOLOGIC DIAGNOSTS__page_no__3",
+    "text": "pathologic diagnosts 1. ulceration with inflammation with changes suggestive of but not entirely diagnostic of ischemic colitis, specimen submitted as biopsy of ascending colon (see note). 2. tubular adenoma(s), specimen submitted as tissue from transverse colon. note: the ascending colon specimen shows changes which are somewhat suggestive of but not entirely diagnostic of ischemic colitis however the possibility of infectious colitis is difficult to exclude with certainty on histologic grounds alone. clinical correlation is suggested. electronically signed by [provider_name] [encounter_date] 1017 end of report [encounter_date] 03:25 pm [patient_name] dob [dob] 3/5"
+  },
+  {
+    "entity": "ischemic colitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "PATHOLOGIC DIAGNOSTS__page_no__3",
+    "text": "pathologic diagnosts 1. ulceration with inflammation with changes suggestive of but not entirely diagnostic of ischemic colitis, specimen submitted as biopsy of ascending colon (see note). 2. tubular adenoma(s), specimen submitted as tissue from transverse colon. note: the ascending colon specimen shows changes which are somewhat suggestive of but not entirely diagnostic of ischemic colitis however the possibility of infectious colitis is difficult to exclude with certainty on histologic grounds alone. clinical correlation is suggested. electronically signed by [provider_name] [encounter_date] 1017 end of report [encounter_date] 03:25 pm [patient_name] dob [dob] 3/5"
+  },
+  {
+    "entity": "biopsy of ascending colon",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "PATHOLOGIC DIAGNOSTS__page_no__3",
+    "text": "pathologic diagnosts 1. ulceration with inflammation with changes suggestive of but not entirely diagnostic of ischemic colitis, specimen submitted as biopsy of ascending colon (see note). 2. tubular adenoma(s), specimen submitted as tissue from transverse colon. note: the ascending colon specimen shows changes which are somewhat suggestive of but not entirely diagnostic of ischemic colitis however the possibility of infectious colitis is difficult to exclude with certainty on histologic grounds alone. clinical correlation is suggested. electronically signed by [provider_name] [encounter_date] 1017 end of report [encounter_date] 03:25 pm [patient_name] dob [dob] 3/5"
+  },
+  {
+    "entity": "tubular adenoma(s)",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "PATHOLOGIC DIAGNOSTS__page_no__3",
+    "text": "pathologic diagnosts 1. ulceration with inflammation with changes suggestive of but not entirely diagnostic of ischemic colitis, specimen submitted as biopsy of ascending colon (see note). 2. tubular adenoma(s), specimen submitted as tissue from transverse colon. note: the ascending colon specimen shows changes which are somewhat suggestive of but not entirely diagnostic of ischemic colitis however the possibility of infectious colitis is difficult to exclude with certainty on histologic grounds alone. clinical correlation is suggested. electronically signed by [provider_name] [encounter_date] 1017 end of report [encounter_date] 03:25 pm [patient_name] dob [dob] 3/5"
+  },
+  {
+    "entity": "ischemic colitis",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "PATHOLOGIC DIAGNOSTS__page_no__3",
+    "text": "pathologic diagnosts 1. ulceration with inflammation with changes suggestive of but not entirely diagnostic of ischemic colitis, specimen submitted as biopsy of ascending colon (see note). 2. tubular adenoma(s), specimen submitted as tissue from transverse colon. note: the ascending colon specimen shows changes which are somewhat suggestive of but not entirely diagnostic of ischemic colitis however the possibility of infectious colitis is difficult to exclude with certainty on histologic grounds alone. clinical correlation is suggested. electronically signed by [provider_name] [encounter_date] 1017 end of report [encounter_date] 03:25 pm [patient_name] dob [dob] 3/5"
+  },
+  {
+    "entity": "infectious colitis",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "PATHOLOGIC DIAGNOSTS__page_no__3",
+    "text": "pathologic diagnosts 1. ulceration with inflammation with changes suggestive of but not entirely diagnostic of ischemic colitis, specimen submitted as biopsy of ascending colon (see note). 2. tubular adenoma(s), specimen submitted as tissue from transverse colon. note: the ascending colon specimen shows changes which are somewhat suggestive of but not entirely diagnostic of ischemic colitis however the possibility of infectious colitis is difficult to exclude with certainty on histologic grounds alone. clinical correlation is suggested. electronically signed by [provider_name] [encounter_date] 1017 end of report [encounter_date] 03:25 pm [patient_name] dob [dob] 3/5"
+  },
+  {
+    "entity": "dep ref",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: status::: header_3: dep ref"
+  },
+  {
+    "entity": "loc",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: acct #: [account_number] loc: y.lbo:: header_3: u #: [account_number]"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: room::: header_3: reg: [encounter_date]"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: coll::: header_3: [encounter_date]-"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: entered::: header_3: [encounter_date]-1006"
+  },
+  {
+    "entity": "spec #",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "18",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 31,
+            "end": 33
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: spec #: 18:lb:s6552:: header_3: status: sout:: header_4: re"
+  },
+  {
+    "entity": "sout",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found - Table__page_no__3",
+    "text": "header_1: :: header_2: spec #: 18:lb:s6552:: header_3: status: sout:: header_4: re"
+  }
+]

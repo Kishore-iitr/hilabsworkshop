@@ -1,0 +1,4062 @@
+[
+  {
+    "entity": "encounter 1",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 [PATIENT_NAME] (MR#[MRN]) Printed by [PROVIDER_NAME] [ACCOUNT_NUMBER]__page_no__1",
+    "text": "encounter 1 [patient_name] (mr#[mrn]) printed by [provider_name] [account_number] <page_1_image_1.jpg> [address] phone:[phone] fax:[phone] [encounter_date] [patient_name] [address]"
+  },
+  {
+    "entity": "eye examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 [PATIENT_NAME] (MR#[MRN]) Printed by [PROVIDER_NAME] [ACCOUNT_NUMBER]__page_no__1",
+    "text": "reviewed [encounter_date] [provider_name] dear [provider_name], thank you for the opportunity to see [patient_name] for an eye examination with fundus evaluation. please note below our observations, findings, treatments and recommended plan of care."
+  },
+  {
+    "entity": "fundus evaluation",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "NEGATIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 [PATIENT_NAME] (MR#[MRN]) Printed by [PROVIDER_NAME] [ACCOUNT_NUMBER]__page_no__1",
+    "text": "reviewed [encounter_date] [provider_name] dear [provider_name], thank you for the opportunity to see [patient_name] for an eye examination with fundus evaluation. please note below our observations, findings, treatments and recommended plan of care."
+  },
+  {
+    "entity": "routine complete eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "routine complete eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "mild frequent blurred near vision in the right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "srx",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "off",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 260,
+            "end": 263
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "bti",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "ha",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "eye pain",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__1",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "diabetes type 2",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "diabetes type 2",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "7.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 143,
+            "end": 146
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "bs",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "160",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 174,
+            "end": 177
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "changes in vision",
+    "entity_type": "SDOH",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "bs changes",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "old floaters",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "flashing",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "distortion",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__1",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "dva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "os__page_no__1",
+    "text": "os | cc | dva sc | dva ph | dva other | nva cc | nva sc |"
+  },
+  {
+    "entity": "dva ph",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "os__page_no__1",
+    "text": "os | cc | dva sc | dva ph | dva other | nva cc | nva sc |"
+  },
+  {
+    "entity": "dva",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "os__page_no__1",
+    "text": "os | cc | dva sc | dva ph | dva other | nva cc | nva sc |"
+  },
+  {
+    "entity": "nva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "os__page_no__1",
+    "text": "os | cc | dva sc | dva ph | dva other | nva cc | nva sc |"
+  },
+  {
+    "entity": "iop summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "IOP Summary__page_no__1",
+    "text": "iop summary"
+  },
+  {
+    "entity": "encounter 1",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 [PATIENT_NAME] (MR#[MRN]) Printed by [PROVIDER_NAME] [ACCOUNT_NUMBER] - Table__page_no__1",
+    "text": "encounter 1 [patient_name] (mr#[mrn]) printed by [provider_name] [account_number] : :: re:: dob::: [patient_name]: [dob]"
+  },
+  {
+    "entity": "encounter 1",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 [PATIENT_NAME] (MR#[MRN]) Printed by [PROVIDER_NAME] [ACCOUNT_NUMBER] - Table__page_no__1",
+    "text": "encounter 1 [patient_name] (mr#[mrn]) printed by [provider_name] [account_number] : :: re:: age::: [patient_name]: 60 years"
+  },
+  {
+    "entity": "encounter 1",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 1 [PATIENT_NAME] (MR#[MRN]) Printed by [PROVIDER_NAME] [ACCOUNT_NUMBER] - Table__page_no__1",
+    "text": "encounter 1 [patient_name] (mr#[mrn]) printed by [provider_name] [account_number] : :: re:: gender::: [patient_name]: female"
+  },
+  {
+    "entity": "dva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: OD - Table__page_no__1",
+    "text": "visual acuity header_1: :: header_2: dva sc:: header_3: dva ph:: header_4: dva other:: header_5: nva cc:: header_6: nva sc"
+  },
+  {
+    "entity": "dva ph",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: OD - Table__page_no__1",
+    "text": "visual acuity header_1: :: header_2: dva sc:: header_3: dva ph:: header_4: dva other:: header_5: nva cc:: header_6: nva sc"
+  },
+  {
+    "entity": "dva other",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: OD - Table__page_no__1",
+    "text": "visual acuity header_1: :: header_2: dva sc:: header_3: dva ph:: header_4: dva other:: header_5: nva cc:: header_6: nva sc"
+  },
+  {
+    "entity": "nva cc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: OD - Table__page_no__1",
+    "text": "visual acuity header_1: :: header_2: dva sc:: header_3: dva ph:: header_4: dva other:: header_5: nva cc:: header_6: nva sc"
+  },
+  {
+    "entity": "nva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: OD - Table__page_no__1",
+    "text": "visual acuity header_1: :: header_2: dva sc:: header_3: dva ph:: header_4: dva other:: header_5: nva cc:: header_6: nva sc"
+  },
+  {
+    "entity": "iop summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "IOP Summary - Table__page_no__1",
+    "text": "iop summary : :: date: [patient_name] [mrn] [dob] [encounter_date] 10:30 am page: 1/3:: time: :: od os method: :: measured by: "
+  },
+  {
+    "entity": "iop summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__1",
+    "text": "iop summary | | | | | | | [encounter_date] 18 | 19 | goldmann | [patient_name] | lids held, squeeze | | | | | | |"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__1",
+    "text": "iop summary | | | | | | | [encounter_date] 18 | 19 | goldmann | [patient_name] | lids held, squeeze | | | | | | |"
+  },
+  {
+    "entity": "goldmann",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__1",
+    "text": "iop summary | | | | | | | [encounter_date] 18 | 19 | goldmann | [patient_name] | lids held, squeeze | | | | | | |"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination__page_no__2",
+    "text": "fundus examination"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "NEGATIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination__page_no__2",
+    "text": "based on my examination findings i determined the following conditions. my reviewed discussions with the patient are: [encounter_date]"
+  },
+  {
+    "entity": "presbyopia",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments__page_no__2",
+    "text": "assessments \\# assessment 1 presbyopia (h52.4). type 2 diabetes mellitus without complications (e11.9). 2 encounter for screening for eye and ear disorders (z13.5). 3 aphakia, left eye (h27.02). 4 age-related nuclear cataract, right eye (h25.11). 5 [provider_name]"
+  },
+  {
+    "entity": "type 2 diabetes mellitus without complications",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments__page_no__2",
+    "text": "assessments \\# assessment 1 presbyopia (h52.4). type 2 diabetes mellitus without complications (e11.9). 2 encounter for screening for eye and ear disorders (z13.5). 3 aphakia, left eye (h27.02). 4 age-related nuclear cataract, right eye (h25.11). 5 [provider_name]"
+  },
+  {
+    "entity": "encounter for screening for eye and ear disorders",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments__page_no__2",
+    "text": "assessments \\# assessment 1 presbyopia (h52.4). type 2 diabetes mellitus without complications (e11.9). 2 encounter for screening for eye and ear disorders (z13.5). 3 aphakia, left eye (h27.02). 4 age-related nuclear cataract, right eye (h25.11). 5 [provider_name]"
+  },
+  {
+    "entity": "aphakia, left eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments__page_no__2",
+    "text": "assessments \\# assessment 1 presbyopia (h52.4). type 2 diabetes mellitus without complications (e11.9). 2 encounter for screening for eye and ear disorders (z13.5). 3 aphakia, left eye (h27.02). 4 age-related nuclear cataract, right eye (h25.11). 5 [provider_name]"
+  },
+  {
+    "entity": "age-related nuclear cataract, right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments__page_no__2",
+    "text": "assessments \\# assessment 1 presbyopia (h52.4). type 2 diabetes mellitus without complications (e11.9). 2 encounter for screening for eye and ear disorders (z13.5). 3 aphakia, left eye (h27.02). 4 age-related nuclear cataract, right eye (h25.11). 5 [provider_name]"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: :: header_3: od:: header_4: os"
+  },
+  {
+    "entity": "nvd",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: optic nerve::: header_3: flat, sharp, good color neg nvd:: header_4: flat, sharp, good color neg nvd"
+  },
+  {
+    "entity": "nvd",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: optic nerve::: header_3: flat, sharp, good color neg nvd:: header_4: flat, sharp, good color neg nvd"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: :: header_3: horizontal: .3:: header_4: horizontal: .25"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: :: header_3: vertical: .3:: header_4: vertical: .25"
+  },
+  {
+    "entity": "rpe mottling",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: macula::: header_3: rpe mottling:: header_4: rpe mottling"
+  },
+  {
+    "entity": "rpe mottling",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: macula::: header_3: rpe mottling:: header_4: rpe mottling"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: :: header_3: negative csme:: header_4: negative csme"
+  },
+  {
+    "entity": "csme",
+    "entity_type": "TEST",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "negative",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 55,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: :: header_3: negative csme:: header_4: negative csme"
+  },
+  {
+    "entity": "csme",
+    "entity_type": "TEST",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "negative",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 55,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: :: header_3: negative csme:: header_4: negative csme"
+  },
+  {
+    "entity": "holes",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "diabetic retinopathy",
+    "entity_type": "VITAL_NAME",
+    "assertion": "NEGATIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "holes",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "diabetic retinopathy",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__2",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "age-related nuclear cataract, right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: impression:: header_3: age-related nuclear cataract, right eye: h25.11. right. condition: established, worsening."
+  },
+  {
+    "entity": "cataracts",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "vision changes",
+    "entity_type": "PROBLEM",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "decrease in vision",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "type 2 diabetes mellitus without complications",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: impression:: header_3: type 2 diabetes mellitus without complications: e11.9. bilateral. condition: unstable."
+  },
+  {
+    "entity": "unstable",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: impression:: header_3: type 2 diabetes mellitus without complications: e11.9. bilateral. condition: unstable."
+  },
+  {
+    "entity": "diabetes type ii",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed"
+  },
+  {
+    "entity": "retinopathy",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed"
+  },
+  {
+    "entity": "neovascularization",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed"
+  },
+  {
+    "entity": "blood sugar",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: ocular and systemic benefits of blood sugar control. fax diabetic letter to patient's:: header_3: "
+  },
+  {
+    "entity": "aphakia, left eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: impression:: header_3: aphakia, left eye: h27.02. left. condition: established, stable."
+  },
+  {
+    "entity": "presbyopia",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: impression:: header_3: presbyopia: h52.4. bilateral. condition: established, worsening."
+  },
+  {
+    "entity": "rx ma",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: rx ma"
+  },
+  {
+    "entity": "encounter for screening for eye and ear disorders",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: impression:: header_3: encounter for screening for eye and ear disorders: z13.5. bilateral. condition: established,"
+  },
+  {
+    "entity": "unstable",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: worsening. condition: unstable.:: header_3: "
+  },
+  {
+    "entity": "e11.9",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__2",
+    "text": "impression/plan header_1: :: header_2: plan:: header_3: see plan e11.9"
+  },
+  {
+    "entity": "follow up",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up__page_no__3",
+    "text": "follow up"
+  },
+  {
+    "entity": "encounter 2",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Encounter 2__page_no__3",
+    "text": "encounter 2"
+  },
+  {
+    "entity": "age-related nuclear cataract, right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up - Table__page_no__3",
+    "text": "follow up : :: diagnosis: age-related nuclear cataract, right eye:: eye: right:: followup: return in 1 year with [provider_name] for complete exam & dm check:: timeframe: "
+  },
+  {
+    "entity": "return in 1 year with [provider_name] for complete exam & dm check",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up - Table__page_no__3",
+    "text": "follow up : :: diagnosis: age-related nuclear cataract, right eye:: eye: right:: followup: return in 1 year with [provider_name] for complete exam & dm check:: timeframe: "
+  },
+  {
+    "entity": "eye examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up__page_no__3",
+    "text": "reviewed [encounter_date] [provider_name] dear [patient_name], thank you for the opportunity to see [patient_name] for an eye examination with fundus evaluation. please note below our observations, findings, treatments and recommended plan of care."
+  },
+  {
+    "entity": "fundus evaluation",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up__page_no__3",
+    "text": "reviewed [encounter_date] [provider_name] dear [patient_name], thank you for the opportunity to see [patient_name] for an eye examination with fundus evaluation. please note below our observations, findings, treatments and recommended plan of care."
+  },
+  {
+    "entity": "routine complete eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "routine complete eye exam",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "mild frequent blurred near vision in the right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "srx",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "off",
+          "entity_score": 1.0,
+          "entity_type": "ROUTE",
+          "entity_span": {
+            "start": 260,
+            "end": 263
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "bti",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "ha",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "eye pain",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 1. Routine Complete Eye Exam__page_no__4",
+    "text": "history of present illness 1. routine complete eye exam the 60 year old patient presents for routine complete eye exam : patient complains of mild frequent blurred near vision in the right eye w current srx noticed this year, feels more comfortable taking srx off to read. no drops used. pt denies any current bti ha or eye pain *os has been unchanged and stable"
+  },
+  {
+    "entity": "diabetes type 2",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "diabetes type 2",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "7.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 143,
+            "end": 146
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "bs",
+    "entity_type": "TEST",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "160",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 174,
+            "end": 177
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "changes in vision",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "bs changes",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "old floaters",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "flashing",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "distortion",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "History of Present Illness :: 2. Diabetes Type 2__page_no__4",
+    "text": "history of present illness 2. diabetes type 2 the patient is present for evaluation of diabetes type 2 monitored by [provider_name] w last a1c 7.5 and bs usually runs around 160, pt denies any changes in vision in correlation w bs changes recently or in past, no changes in old floaters no flashing, curtains, or distortion noted."
+  },
+  {
+    "entity": "iop summary",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "IOP Summary__page_no__4",
+    "text": "iop summary | [empty] | time | od | os | method | measured by | dilated | comment |"
+  },
+  {
+    "entity": "dva cc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: dva cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "dva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: dva cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "dva ph",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: dva cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "dva other",
+    "entity_type": "PROBLEM",
+    "assertion": "",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: dva cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "nva cc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: dva cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "nva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: dva cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "va cc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: os - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: va cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "dva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: os - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: va cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "dva ph",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: os - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: va cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "dva other",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: os - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: va cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "nva cc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: os - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: va cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "nva sc",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "Visual Acuity :: os - Table__page_no__4",
+    "text": "visual acuity header_1: :: header_2: va cc:: header_3: dva sc:: header_4: dva ph:: header_5: dva other:: header_6: nva cc:: header_7: nva sc"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination__page_no__5",
+    "text": "fundus examination"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: :: header_3: od:: header_4: "
+  },
+  {
+    "entity": "nvd",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: optic nerve::: header_3: flat, sharp, good color neg nvd horizontal: .3 vertical: .3:: header_4: flat, sharp, good color neg nvd horizontal: .25 vertical: .25"
+  },
+  {
+    "entity": "nvd",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: optic nerve::: header_3: flat, sharp, good color neg nvd horizontal: .3 vertical: .3:: header_4: flat, sharp, good color neg nvd horizontal: .25 vertical: .25"
+  },
+  {
+    "entity": "rpe mottling",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: macula::: header_3: rpe mottling:: header_4: rpe mottling"
+  },
+  {
+    "entity": "rpe mottling",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: macula::: header_3: rpe mottling:: header_4: rpe mottling"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: :: header_3: negative csme:: header_4: negative csme"
+  },
+  {
+    "entity": "csme",
+    "entity_type": "TEST",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "negative",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 55,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: :: header_3: negative csme:: header_4: negative csme"
+  },
+  {
+    "entity": "csme",
+    "entity_type": "TEST",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "negative",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 55,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: :: header_3: negative csme:: header_4: negative csme"
+  },
+  {
+    "entity": "holes",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "diabetic retinopathy",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "holes",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "diabetic retinopathy",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: periphery::: header_3: flat x 360 degrees, no rd, no holes no background diabetic retinopathy:: header_4: flat x 360 degrees, no rd, no holes no background diabetic retinopathy"
+  },
+  {
+    "entity": "fundus examination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Fundus Examination - Table__page_no__4",
+    "text": "fundus examination header_1: :: header_2: os"
+  },
+  {
+    "entity": "presbyopia",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments - Table__page_no__4",
+    "text": "assessments header_1: :: header_2: 1:: header_3: presbyopia (h52.4). reviewed"
+  },
+  {
+    "entity": "type 2 diabetes mellitus without complications",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments - Table__page_no__4",
+    "text": "assessments header_1: :: header_2: 2:: header_3: type 2 diabetes mellitus without complications (e11.9)."
+  },
+  {
+    "entity": "encounter for screening for eye and ear disorders",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments - Table__page_no__4",
+    "text": "assessments header_1: :: header_2: 3:: header_3: encounter for screening for eye and ear disorders (z13.5)."
+  },
+  {
+    "entity": "aphakia, left eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments - Table__page_no__4",
+    "text": "assessments header_1: :: header_2: 4:: header_3: aphakia, left eye (h27.02). [provider_name]"
+  },
+  {
+    "entity": "age-related nuclear cataract, right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Assessments - Table__page_no__4",
+    "text": "assessments header_1: :: header_2: 5:: header_3: age-related nuclear cataract, right eye (h25.11)."
+  },
+  {
+    "entity": "type 2 diabetes mellitus without complications: e11.9. bilateral",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression:: description: type 2 diabetes mellitus without complications: e11.9. bilateral. condition: unstable."
+  },
+  {
+    "entity": "unstable",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "250",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mcg",
+          "entity_score": 1.0,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression:: description: type 2 diabetes mellitus without complications: e11.9. bilateral. condition: unstable."
+  },
+  {
+    "entity": "diabetes type ii",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: plan:: description: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed ocular and systemic benefits of blood sugar control. fax diabetic letter to patient's pcp/endocrinologist."
+  },
+  {
+    "entity": "retinopathy",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: plan:: description: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed ocular and systemic benefits of blood sugar control. fax diabetic letter to patient's pcp/endocrinologist."
+  },
+  {
+    "entity": "neovascularization",
+    "entity_type": "VITAL_NAME",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: plan:: description: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed ocular and systemic benefits of blood sugar control. fax diabetic letter to patient's pcp/endocrinologist."
+  },
+  {
+    "entity": "blood sugar",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: plan:: description: diabetes type ii: no background retinopathy, no signs of neovascularization noted. discussed ocular and systemic benefits of blood sugar control. fax diabetic letter to patient's pcp/endocrinologist."
+  },
+  {
+    "entity": "age-related nuclear cataract, right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression plan:: description: age-related nuclear cataract, right eye: h25.11. right. condition: established, worsening. cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "cataracts",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression plan:: description: age-related nuclear cataract, right eye: h25.11. right. condition: established, worsening. cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "vision changes",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression plan:: description: age-related nuclear cataract, right eye: h25.11. right. condition: established, worsening. cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "decrease in vision",
+    "entity_type": "PROBLEM",
+    "assertion": "UNCERTAIN",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression plan:: description: age-related nuclear cataract, right eye: h25.11. right. condition: established, worsening. cataracts account for the patient's complaints. no treatment currently recommended. the patient will monitor vision changes and contact us with any decrease in vision."
+  },
+  {
+    "entity": "aphakia, left eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression:: description: aphakia, left eye: h27.02. left. condition: established, stable."
+  },
+  {
+    "entity": "presbyopia",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression:: description: presbyopia: h52.4. bilateral. condition: established, worsening."
+  },
+  {
+    "entity": "encounter for screening for eye and ear disorders",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression:: description: encounter for screening for eye and ear disorders: z13.5. bilateral. condition: established, worsening. condition: unstable."
+  },
+  {
+    "entity": "unstable",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: impression:: description: encounter for screening for eye and ear disorders: z13.5. bilateral. condition: established, worsening. condition: unstable."
+  },
+  {
+    "entity": "e11.9",
+    "entity_type": "VITAL_NAME",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Impression/Plan - Table__page_no__4",
+    "text": "impression/plan : :: detail type: plan:: description: see plan e11.9"
+  },
+  {
+    "entity": "follow up",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up__page_no__6",
+    "text": "follow up"
+  },
+  {
+    "entity": "age-related nuclear cataract, right eye",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up - Table__page_no__6",
+    "text": "follow up : :: diagnosis: age-related nuclear cataract, right eye:: eye: right:: followup: return in 1 year with [provider_name] for complete exam & dm check:: timeframe: "
+  },
+  {
+    "entity": "return in 1 year with [provider_name] for complete exam & dm check",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow Up - Table__page_no__6",
+    "text": "follow up : :: diagnosis: age-related nuclear cataract, right eye:: eye: right:: followup: return in 1 year with [provider_name] for complete exam & dm check:: timeframe: "
+  },
+  {
+    "entity": "mrn",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__7",
+    "text": "[patient_name] mrn: [mrn] description: female dob: [dob]"
+  },
+  {
+    "entity": "mrn]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__7",
+    "text": "[patient_name] mrn: [mrn] description: female dob: [dob]"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Time Zone Mismatch__page_no__7",
+    "text": "time zone mismatch time-sensitive data might be out of sequence or missing. information for this order was documented in a time zone different from the current session's time zone. order's time zone: america/new_york current session's time zone: america/chicago printable version (excludes result notes) comprehensive metabolic panel (order #[account_number]) on [encounter_date] result | ⚠️ comprehensive metabolic panel (order [account_number]) |"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Time Zone Mismatch__page_no__7",
+    "text": "time zone mismatch time-sensitive data might be out of sequence or missing. information for this order was documented in a time zone different from the current session's time zone. order's time zone: america/new_york current session's time zone: america/chicago printable version (excludes result notes) comprehensive metabolic panel (order #[account_number]) on [encounter_date] result | ⚠️ comprehensive metabolic panel (order [account_number]) |"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comprehensive metabolic panel collected [encounter_date] 11:37 am status: final result dx: type 2 diabetes mellitus with hypergl.. 2 result notes 1 follow-up encounter 1 hm topic"
+  },
+  {
+    "entity": "type 2 diabetes mellitus with hypergl",
+    "entity_type": "VITAL_NAME",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comprehensive metabolic panel collected [encounter_date] 11:37 am status: final result dx: type 2 diabetes mellitus with hypergl.. 2 result notes 1 follow-up encounter 1 hm topic"
+  },
+  {
+    "entity": "follow-up encounter",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comprehensive metabolic panel collected [encounter_date] 11:37 am status: final result dx: type 2 diabetes mellitus with hypergl.. 2 result notes 1 follow-up encounter 1 hm topic"
+  },
+  {
+    "entity": "estimated gfr units",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "ml/min/1.73 square meters",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 30,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comment: estimated gfr units: ml/min/1.73 square meters calculation based on the chronic kidney disease epidemiology collaboration (ckd-epi) equation refit without adjustment for race. globulin (calc.) 3.2 1.4 - 3.5 g/dl order: [account_number]"
+  },
+  {
+    "entity": "chronic kidney disease epidemiology collaboration (ckd-epi",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "3.2",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 202,
+            "end": 205
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 216,
+            "end": 220
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comment: estimated gfr units: ml/min/1.73 square meters calculation based on the chronic kidney disease epidemiology collaboration (ckd-epi) equation refit without adjustment for race. globulin (calc.) 3.2 1.4 - 3.5 g/dl order: [account_number]"
+  },
+  {
+    "entity": "globulin (calc.)",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "3.2",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 202,
+            "end": 205
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 216,
+            "end": 220
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comment: estimated gfr units: ml/min/1.73 square meters calculation based on the chronic kidney disease epidemiology collaboration (ckd-epi) equation refit without adjustment for race. globulin (calc.) 3.2 1.4 - 3.5 g/dl order: [account_number]"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: omponent:: header_3: [encounter_date] 11:37 am:: header_4: [encounter_date] 10:42:: header_5: [encounter_date] 12:11:: header_6: [encounter_date] 12:11:: header_7: [encounter_date] 11:52 am:: header_8: [encounter_date] 9:58 am:: header_9: [encounter_date] 11:00 am"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: ef range &:: header_3: america/new_york:: header_4: am:: header_5: pm:: header_6: pm:: header_7: america/new_york:: header_8: america/new_york:: header_9: america/new_york"
+  },
+  {
+    "entity": "ef range &",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: ef range &:: header_3: america/new_york:: header_4: am:: header_5: pm:: header_6: pm:: header_7: america/new_york:: header_8: america/new_york:: header_9: america/new_york"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: /now vork amserics /now vork, /now vork"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "1.4",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 98,
+            "end": 101
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ratio",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 58,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: a/g ratio 1.0 2.5 ratio:: america/new_york: 1.4:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 1.4:: america/new_york: 1.4:: america/new_york: 1.2"
+  },
+  {
+    "entity": "a/g ratio",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "1",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 64,
+            "end": 65
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ratio",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 58,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: a/g ratio 1.0 2.5 ratio:: america/new_york: 1.4:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 1.4:: america/new_york: 1.4:: america/new_york: 1.2"
+  },
+  {
+    "entity": "2.5 ratio",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "1.4",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 98,
+            "end": 101
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ratio",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 58,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: a/g ratio 1.0 2.5 ratio:: america/new_york: 1.4:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 1.4:: america/new_york: 1.4:: america/new_york: 1.2"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "4.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 95,
+            "end": 98
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 74
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: albumin 3.2 5.0 g/dl:: america/new_york: 4.5:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 4.6:: america/new_york: 4.2:: america/new_york: 4.6"
+  },
+  {
+    "entity": "albumin",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "4.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 95,
+            "end": 98
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 74
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: albumin 3.2 5.0 g/dl:: america/new_york: 4.5:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 4.6:: america/new_york: 4.2:: america/new_york: 4.6"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "93",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 108,
+            "end": 110
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "u/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 84,
+            "end": 87
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: alkaline phosphatase 30 - 135 u/l:: america/new_york: 93:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 92:: america/new_york: 77:: america/new_york: 92"
+  },
+  {
+    "entity": "alkaline phosphatase",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "93",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 108,
+            "end": 110
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "u/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 84,
+            "end": 87
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: alkaline phosphatase 30 - 135 u/l:: america/new_york: 93:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 92:: america/new_york: 77:: america/new_york: 92"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "iu/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 63,
+            "end": 67
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: alt 7 52 iu/l:: america/new_york: 24:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 40:: america/new_york: 19:: america/new_york: 23"
+  },
+  {
+    "entity": "alt",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "iu/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 63,
+            "end": 67
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: alt 7 52 iu/l:: america/new_york: 24:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 40:: america/new_york: 19:: america/new_york: 23"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "22",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 88,
+            "end": 90
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "u/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 64,
+            "end": 67
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: ast 15 40 u/l:: america/new_york: 22:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 33:: america/new_york: 19 r:: america/new_york: 37 r"
+  },
+  {
+    "entity": "ast",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "15",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 58,
+            "end": 60
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "u/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 64,
+            "end": 67
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: ast 15 40 u/l:: america/new_york: 22:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 33:: america/new_york: 19 r:: america/new_york: 37 r"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "0",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 71,
+            "end": 72
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 81,
+            "end": 86
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: bilirubin, total 0.20 1.35 mg/dl:: america/new_york: 0.31:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 0.43:: america/new_york: 0.24:: america/new_york: 0.44"
+  },
+  {
+    "entity": "bilirubin, total",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "0.2",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 71,
+            "end": 74
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 81,
+            "end": 86
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: bilirubin, total 0.20 1.35 mg/dl:: america/new_york: 0.31:: am america/new_york: :: pm america/new_york: :: pm america/new_york: :: america/new_york: 0.43:: america/new_york: 0.24:: america/new_york: 0.44"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "11.2",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 183,
+            "end": 187
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 77,
+            "end": 82
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: urea nitrogen 7.0 21.0 mg/dl:: america/new_york: 11.0:: am america/new_york: 10.7:: pm america/new_york: :: pm america/new_york: 11.2:: america/new_york: 9.9:: america/new_york: 7 r:: america/new_york: 10 r"
+  },
+  {
+    "entity": "urea nitrogen",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "11",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 103,
+            "end": 105
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 77,
+            "end": 82
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: urea nitrogen 7.0 21.0 mg/dl:: america/new_york: 11.0:: am america/new_york: 10.7:: pm america/new_york: :: pm america/new_york: 11.2:: america/new_york: 9.9:: america/new_york: 7 r:: america/new_york: 10 r"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "PROCEDURE",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "16.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 205,
+            "end": 209
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ratio",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 78,
+            "end": 83
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: bun/creatinine 8.0 26.0 ratio:: america/new_york: 15.7:: am america/new_york: 15.3:: pm america/new_york: :: pm america/new_york: :: america/new_york: 16.5:: america/new_york: 10 r:: america/new_york: 14 r"
+  },
+  {
+    "entity": "bun/creatinine",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "26",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 73,
+            "end": 75
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ratio",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 78,
+            "end": 83
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: bun/creatinine 8.0 26.0 ratio:: america/new_york: 15.7:: am america/new_york: 15.3:: pm america/new_york: :: pm america/new_york: :: america/new_york: 16.5:: america/new_york: 10 r:: america/new_york: 14 r"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "10.4",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 66,
+            "end": 70
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 71,
+            "end": 76
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: calcium 8.2 10.4 mg/dl:: america/new_york: 10.3:: am america/new_york: 10.4:: pm america/new_york: :: pm america/new_york: :: america/new_york: 10.6:: america/new_york: 10.1:: america/new_york: 10.4"
+  },
+  {
+    "entity": "calcium",
+    "entity_type": "TEST",
+    "assertion": "NEGATIVE",
+    "temporality": "CLINICAL_HISTORY",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "10.4",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 66,
+            "end": 70
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 71,
+            "end": 76
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: calcium 8.2 10.4 mg/dl:: america/new_york: 10.3:: am america/new_york: 10.4:: pm america/new_york: :: pm america/new_york: :: america/new_york: 10.6:: america/new_york: 10.1:: america/new_york: 10.4"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "30 days",
+          "entity_score": 1.0,
+          "entity_type": "DURATION",
+          "entity_span": {
+            "start": 75,
+            "end": 81
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: carbon dioxide 21 30 mmol/l:: america/new_york: 27:: am america/new_york: 31:: pm america/new_york: :: pm america/new_york: :: america/new_york: 28:: america/new_york: 30:: america/new_york: 26"
+  },
+  {
+    "entity": "carbon dioxide",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "21",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 69,
+            "end": 71
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 75,
+            "end": 81
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: carbon dioxide 21 30 mmol/l:: america/new_york: 27:: am america/new_york: 31:: pm america/new_york: :: pm america/new_york: :: america/new_york: 28:: america/new_york: 30:: america/new_york: 26"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "98",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 63,
+            "end": 65
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 76
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: chloride 98 108 mmol/l:: america/new_york: 96:: am america/new_york: 98:: pm america/new_york: :: pm america/new_york: :: america/new_york: 99:: america/new_york: 101:: america/new_york: 97"
+  },
+  {
+    "entity": "chloride",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "98",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 63,
+            "end": 65
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 76
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: chloride 98 108 mmol/l:: america/new_york: 96:: am america/new_york: 98:: pm america/new_york: :: pm america/new_york: :: america/new_york: 99:: america/new_york: 101:: america/new_york: 97"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "0.7",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 99,
+            "end": 102
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: creatinine 0.5 1.4 mg/dl:: america/new_york: 0.7:: am america/new_york: 0.7:: pm america/new_york: 0.7:: pm america/new_york: :: america/new_york: 0.6:: america/new_york: 0.7:: america/new_york: 0.7"
+  },
+  {
+    "entity": "creatinine",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "0.7",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 99,
+            "end": 102
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 73,
+            "end": 78
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: creatinine 0.5 1.4 mg/dl:: america/new_york: 0.7:: am america/new_york: 0.7:: pm america/new_york: 0.7:: pm america/new_york: :: america/new_york: 0.6:: america/new_york: 0.7:: america/new_york: 0.7"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "98.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 105,
+            "end": 109
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ml/min/1.73",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 73,
+            "end": 84
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: gfr ckd-epi >=60.0 ml/min/1.73:: america/new_york: 98.5:: am america/new_york: cm 99.2:: pm america/new_york: cm 99.2:: pm america/new_york: :: america/new_york: r, cm 102.9:: america/new_york: :: america/new_york: "
+  },
+  {
+    "entity": "gfr ckd-epi",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "98.5",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 105,
+            "end": 109
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "ml/min/1.73",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 73,
+            "end": 84
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel : :: ref range & units: gfr ckd-epi >=60.0 ml/min/1.73:: america/new_york: 98.5:: am america/new_york: cm 99.2:: pm america/new_york: cm 99.2:: pm america/new_york: :: america/new_york: r, cm 102.9:: america/new_york: :: america/new_york: "
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: mâ²"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "comprehensive metabolic panel"
+  },
+  {
+    "entity": "routing result history",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL__page_no__7",
+    "text": "specimen collected: [encounter_date] 11:37 am edt last resulted: [encounter_date] 1:39 pm edt | order details view encounter lab and collection details routing result history | view all conversations on this encounter cm=additional comments r=reference range differs from displayed range"
+  },
+  {
+    "entity": "care coordination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results :: Result Care Coordination__page_no__8",
+    "text": "related results result care coordination"
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results :: Result Notes__page_no__8",
+    "text": "related results result notes <page_8_image_3.jpg> [provider_name] [encounter_date] 2:39 pm edt back to top results reviewed. please inform patient her diabetes has worsened. bring premeal and prebedtime readings to her appt so her diabetes can be addressed.. <page_8_image_4.jpg> [provider_name] [encounter_date] 1:50 pm edt results reviewed. please inform patient her blood sugar is elevated. she should check premeal and prebedtime blood sugars and bring to appt in 2 wk.."
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results :: Result Notes__page_no__8",
+    "text": "related results result notes <page_8_image_3.jpg> [provider_name] [encounter_date] 2:39 pm edt back to top results reviewed. please inform patient her diabetes has worsened. bring premeal and prebedtime readings to her appt so her diabetes can be addressed.. <page_8_image_4.jpg> [provider_name] [encounter_date] 1:50 pm edt results reviewed. please inform patient her blood sugar is elevated. she should check premeal and prebedtime blood sugars and bring to appt in 2 wk.."
+  },
+  {
+    "entity": "blood sugar is elevated",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results :: Result Notes__page_no__8",
+    "text": "related results result notes <page_8_image_3.jpg> [provider_name] [encounter_date] 2:39 pm edt back to top results reviewed. please inform patient her diabetes has worsened. bring premeal and prebedtime readings to her appt so her diabetes can be addressed.. <page_8_image_4.jpg> [provider_name] [encounter_date] 1:50 pm edt results reviewed. please inform patient her blood sugar is elevated. she should check premeal and prebedtime blood sugars and bring to appt in 2 wk.."
+  },
+  {
+    "entity": "prebedtime blood sugars",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "250",
+          "entity_score": 0.9,
+          "entity_type": "STRENGTH",
+          "entity_span": {
+            "start": 0,
+            "end": 3
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mcg",
+          "entity_score": 0.9,
+          "entity_type": "UNIT",
+          "entity_span": {
+            "start": 4,
+            "end": 6
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "Related Results :: Result Notes__page_no__8",
+    "text": "related results result notes <page_8_image_3.jpg> [provider_name] [encounter_date] 2:39 pm edt back to top results reviewed. please inform patient her diabetes has worsened. bring premeal and prebedtime readings to her appt so her diabetes can be addressed.. <page_8_image_4.jpg> [provider_name] [encounter_date] 1:50 pm edt results reviewed. please inform patient her blood sugar is elevated. she should check premeal and prebedtime blood sugars and bring to appt in 2 wk.."
+  },
+  {
+    "entity": "patient communication",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Patient Communication__page_no__8",
+    "text": "patient communication | released | x not seen | back to top |"
+  },
+  {
+    "entity": "x not seen",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Patient Communication__page_no__8",
+    "text": "patient communication | released | x not seen | back to top |"
+  },
+  {
+    "entity": "follow-up encounters",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters__page_no__8",
+    "text": "follow-up encounters [encounter_date] telephone + satisfied health maintenance topics diabetes care glomerular filtration rate (gfr) (yearly) back to top back to top next due on [encounter_date]"
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters__page_no__8",
+    "text": "follow-up encounters [encounter_date] telephone + satisfied health maintenance topics diabetes care glomerular filtration rate (gfr) (yearly) back to top back to top next due on [encounter_date]"
+  },
+  {
+    "entity": "glomerular filtration rate (gfr",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters__page_no__8",
+    "text": "follow-up encounters [encounter_date] telephone + satisfied health maintenance topics diabetes care glomerular filtration rate (gfr) (yearly) back to top back to top next due on [encounter_date]"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "248",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 88,
+            "end": 91
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 75
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: glucose 65 - 100 mg/dl:: header_3: 248:: header_4: 209:: header_5: :: header_6: :: header_7: 167:: header_8: 171 cm:: header_9: 283 cm"
+  },
+  {
+    "entity": "glucose",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "248",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 88,
+            "end": 91
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 75
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: glucose 65 - 100 mg/dl:: header_3: 248:: header_4: 209:: header_5: :: header_6: :: header_7: 167:: header_8: 171 cm:: header_9: 283 cm"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "mmol/kg",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 86,
+            "end": 93
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: osmolality (calc.) 270.0 - 300.0 mmol/kg:: header_3: 276.6:: header_4: 279.0:: header_5: :: header_6: :: header_7: 277.9:: header_8: 278 r:: header_9: 282 r"
+  },
+  {
+    "entity": "osmolality (calc.)",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "276.6",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 106,
+            "end": 111
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/kg",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 86,
+            "end": 93
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: osmolality (calc.) 270.0 - 300.0 mmol/kg:: header_3: 276.6:: header_4: 279.0:: header_5: :: header_6: :: header_7: 277.9:: header_8: 278 r:: header_9: 282 r"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "4.2",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 92,
+            "end": 95
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 73,
+            "end": 79
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: potassium 3.2 - 5.2 mmol/l:: header_3: 4.2:: header_4: 4.7:: header_5: :: header_6: :: header_7: 4.5:: header_8: 4.9:: header_9: 5.5"
+  },
+  {
+    "entity": "potassium",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "4.2",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 92,
+            "end": 95
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 73,
+            "end": 79
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: potassium 3.2 - 5.2 mmol/l:: header_3: 4.2:: header_4: 4.7:: header_5: :: header_6: :: header_7: 4.5:: header_8: 4.9:: header_9: 5.5"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "138",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 147,
+            "end": 150
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 76
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: sodium 135 - 145 mmol/l:: header_3: 135:: header_4: 137:: header_5: :: header_6: :: header_7: 138:: header_8: 138:: header_9: 136"
+  },
+  {
+    "entity": "sodium",
+    "entity_type": "TEST",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "135",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 60,
+            "end": 63
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mmol/l",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 70,
+            "end": 76
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: sodium 135 - 145 mmol/l:: header_3: 135:: header_4: 137:: header_5: :: header_6: :: header_7: 138:: header_8: 138:: header_9: 136"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "7.7",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 94,
+            "end": 97
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "g/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 77,
+            "end": 81
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: total protein 5.8 - 7.8 g/dl:: header_3: 7.7:: header_4: :: header_5: :: header_6: :: header_7: 8.0:: header_8: 7.2:: header_9: 8.3"
+  },
+  {
+    "entity": "total protein",
+    "entity_type": "MENTAL_STATUS",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2 caps",
+          "entity_score": 1.0,
+          "entity_type": "DOSE",
+          "entity_span": {
+            "start": 94,
+            "end": 97
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "0.5 mg",
+          "entity_score": 1.0,
+          "entity_type": "DOSE",
+          "entity_span": {
+            "start": 77,
+            "end": 81
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: total protein 5.8 - 7.8 g/dl:: header_3: 7.7:: header_4: :: header_5: :: header_6: :: header_7: 8.0:: header_8: 7.2:: header_9: 8.3"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbclab",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "sbclab",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "COMPREHENSIVE METABOLIC PANEL - Table__page_no__7",
+    "text": "comprehensive metabolic panel header_1: :: header_2: resulting agency:: header_3: sbcl:: header_4: sbcl:: header_5: sbcl:: header_6: sbcl:: header_7: sbcl:: header_8: sbclab:: header_9: sbclab"
+  },
+  {
+    "entity": "rheumatoid factor (rf)",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results - Table__page_no__8",
+    "text": "related results : :: [empty]: [empty]:: rheumatoid factor (rf) final result [encounter_date]: c-reactive protein (crp), quantitative final result [encounter_date]"
+  },
+  {
+    "entity": "c-reactive protein (crp), quantitative",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results - Table__page_no__8",
+    "text": "related results : :: [empty]: [empty]:: rheumatoid factor (rf) final result [encounter_date]: c-reactive protein (crp), quantitative final result [encounter_date]"
+  },
+  {
+    "entity": "rheumatoid factor (rf)",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results - Table__page_no__8",
+    "text": "related results : :: [empty]: [empty]:: rheumatoid factor (rf) final result [encounter_date]: uric acid final result [encounter_date]"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results - Table__page_no__8",
+    "text": "related results : :: [empty]: [empty]:: rheumatoid factor (rf) final result [encounter_date]: uric acid final result [encounter_date]"
+  },
+  {
+    "entity": "uric acid",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Related Results - Table__page_no__8",
+    "text": "related results : :: [empty]: [empty]:: rheumatoid factor (rf) final result [encounter_date]: uric acid final result [encounter_date]"
+  },
+  {
+    "entity": "release to patient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Questions - Table__page_no__8",
+    "text": "questions header_1: :: header_2: release to patient:: header_3: immediate"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimen Information - Table__page_no__8",
+    "text": "specimen information header_1: :: header_2: collected::: header_3: [encounter_date] 11:37 am edt [patient_name]"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimen Information - Table__page_no__8",
+    "text": "specimen information header_1: :: header_2: received::: header_3: [encounter_date] 11:37 am edt"
+  },
+  {
+    "entity": "venipuncture",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimen Information - Table__page_no__8",
+    "text": "specimen information header_1: :: header_2: venipuncture:: header_3: "
+  },
+  {
+    "entity": "reviewers list",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "I All Reviewers List__page_no__9",
+    "text": "i all reviewers list [provider_name] on [encounter_date] [provider_name] on [encounter_date]"
+  },
+  {
+    "entity": "encounter_date]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "I All Reviewers List__page_no__9",
+    "text": "i all reviewers list [provider_name] on [encounter_date] [provider_name] on [encounter_date]"
+  },
+  {
+    "entity": "rheumatoid factor (rf)",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Orders with Same Specimen ID__page_no__9",
+    "text": "orders with same specimen id rheumatoid factor (rf) (order#[account_number]) on [encounter_date] c-reactive protein (crp), quantitative (order#[account_number]) on [encounter_date] uric acid (order#[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "c-reactive protein (crp), quantitative",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Orders with Same Specimen ID__page_no__9",
+    "text": "orders with same specimen id rheumatoid factor (rf) (order#[account_number]) on [encounter_date] c-reactive protein (crp), quantitative (order#[account_number]) on [encounter_date] uric acid (order#[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "uric acid",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Orders with Same Specimen ID__page_no__9",
+    "text": "orders with same specimen id rheumatoid factor (rf) (order#[account_number]) on [encounter_date] c-reactive protein (crp), quantitative (order#[account_number]) on [encounter_date] uric acid (order#[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "smartlink info",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "View Smartlink Info__page_no__9",
+    "text": "view smartlink info comprehensive metabolic panel (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "UNCERTAIN",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "View Smartlink Info__page_no__9",
+    "text": "view smartlink info comprehensive metabolic panel (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Order History__page_no__9",
+    "text": "reprint [facility_name] laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] reprint [facility_name] laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] reprint external laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] outpatient | order report order details |"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "TEST",
+    "assertion": "UNCERTAIN",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Order History__page_no__9",
+    "text": "reprint [facility_name] laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] reprint [facility_name] laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] reprint external laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] outpatient | order report order details |"
+  },
+  {
+    "entity": "comprehensive metabolic panel",
+    "entity_type": "MEDICINE",
+    "assertion": "POSITIVE",
+    "temporality": "",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Order History__page_no__9",
+    "text": "reprint [facility_name] laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] reprint [facility_name] laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] reprint external laboratory order requisition comprehensive metabolic panel (order #[account_number]) on [encounter_date] outpatient | order report order details |"
+  },
+  {
+    "entity": "mrn",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__10",
+    "text": "[patient_name] mrn: [mrn] description: female dob: [dob]"
+  },
+  {
+    "entity": "mrn]",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "[PATIENT_NAME]__page_no__10",
+    "text": "[patient_name] mrn: [mrn] description: female dob: [dob]"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Time Zone Mismatch__page_no__10",
+    "text": "time zone mismatch time-sensitive data might be out of sequence or missing. information for this order was documented in a time zone different from the current session's time zone. order's time zone: america/new_york current session's time zone: america/chicago printable version (excludes result notes) hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Result__page_no__10",
+    "text": "result | ! hemoglobin a1c (order [account_number]) |"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C__page_no__10",
+    "text": "! hemoglobin a1c collected [encounter_date] 11:37 am status: final result dx: poorly controlled type 2 diabetes mel. 1 result note 1 follow-up encounter 1 hm topic"
+  },
+  {
+    "entity": "poorly controlled type 2 diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C__page_no__10",
+    "text": "! hemoglobin a1c collected [encounter_date] 11:37 am status: final result dx: poorly controlled type 2 diabetes mel. 1 result note 1 follow-up encounter 1 hm topic"
+  },
+  {
+    "entity": "follow-up encounter",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C__page_no__10",
+    "text": "! hemoglobin a1c collected [encounter_date] 11:37 am status: final result dx: poorly controlled type 2 diabetes mel. 1 result note 1 follow-up encounter 1 hm topic"
+  },
+  {
+    "entity": "routing result history",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C__page_no__10",
+    "text": "specimen collected: [encounter_date] 11:37 am edt order: [account_number] last resulted: [encounter_date] 1:57 pm edt | order details view encounter lab and collection details routing result history | view all conversations on this encounter"
+  },
+  {
+    "entity": "care coordination",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Result Care Coordination__page_no__10",
+    "text": "result care coordination"
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Result Care Coordination :: Result Notes__page_no__10",
+    "text": "result care coordination result notes [provider_name] [encounter_date] 2:39 pm edt back to top results reviewed. please inform patient her diabetes has worsened. bring premeal and prebedtime readings to her appt so her diabetes can be addressed.. <page_10_image_6.jpg>"
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Result Care Coordination :: Result Notes__page_no__10",
+    "text": "result care coordination result notes [provider_name] [encounter_date] 2:39 pm edt back to top results reviewed. please inform patient her diabetes has worsened. bring premeal and prebedtime readings to her appt so her diabetes can be addressed.. <page_10_image_6.jpg>"
+  },
+  {
+    "entity": "patient communication",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Result Care Coordination :: Patient Communication__page_no__10",
+    "text": "result care coordination patient communication | released | x not seen | back to top |"
+  },
+  {
+    "entity": "follow-up encounters",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters__page_no__10",
+    "text": "follow-up encounters"
+  },
+  {
+    "entity": "follow-up encounters",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters :: [ENCOUNTER_DATE] Telephone__page_no__10",
+    "text": "follow-up encounters [encounter_date] telephone | satisfied health maintenance topics | diabetes care a1c (every 3 months) back to top back to top ordered on [encounter_date]"
+  },
+  {
+    "entity": "diabetes",
+    "entity_type": "PROBLEM",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters :: [ENCOUNTER_DATE] Telephone__page_no__10",
+    "text": "follow-up encounters [encounter_date] telephone | satisfied health maintenance topics | diabetes care a1c (every 3 months) back to top back to top ordered on [encounter_date]"
+  },
+  {
+    "entity": "a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Follow-up Encounters :: [ENCOUNTER_DATE] Telephone__page_no__10",
+    "text": "follow-up encounters [encounter_date] telephone | satisfied health maintenance topics | diabetes care a1c (every 3 months) back to top back to top ordered on [encounter_date]"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2023-10-12",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 164,
+            "end": 178
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: omponent: range &:: [encounter_date] 11:37 am 3/22/24 3:22 pm 11/17/23 10:34: america/new_york america/new_york am:: [empty]: [empty]:: date: 10/12/23 12:11:: value: pm"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2023-06-02",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 164,
+            "end": 179
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: omponent: range &:: [encounter_date] 11:37 am 3/22/24 3:22 pm 11/17/23 10:34: america/new_york america/new_york am:: [empty]: [empty]:: date: 6/2/23 10:48 am:: value: america/new_york"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2023-01-19",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 164,
+            "end": 171
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: omponent: range &:: [encounter_date] 11:37 am 3/22/24 3:22 pm 11/17/23 10:34: america/new_york america/new_york am:: [empty]: [empty]:: date: 1/19/23 9:58 am:: value: america/new_york"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "2022-10-06",
+          "entity_score": 1.0,
+          "entity_type": "exact_date",
+          "entity_span": {
+            "start": 164,
+            "end": 180
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 1
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: omponent: range &:: [encounter_date] 11:37 am 3/22/24 3:22 pm 11/17/23 10:34: america/new_york america/new_york am:: [empty]: [empty]:: date: 10/6/22 11:00 am:: value: america/new_york"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c header_1: :: header_2: america /now vork america /now vork"
+  },
+  {
+    "entity": "vork",
+    "entity_type": "PROCEDURE",
+    "assertion": "NEGATIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c header_1: :: header_2: america /now vork america /now vork"
+  },
+  {
+    "entity": "vork",
+    "entity_type": "MEDICAL_DEVICE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c header_1: :: header_2: america /now vork america /now vork"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "SDOH",
+    "assertion": "",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "9",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 54,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "%",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 48,
+            "end": 49
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: hgb a1c 4.3 - - 6.0%:: : 9.0:: : 8.3:: america/new_york: 8.6:: america/new_york: 8.6:: : 8.2:: : 8.4:: : 9.0"
+  },
+  {
+    "entity": "hgb a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "9",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 54,
+            "end": 55
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "%",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 48,
+            "end": 49
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: hgb a1c 4.3 - - 6.0%:: : 9.0:: : 8.3:: america/new_york: 8.6:: america/new_york: 8.6:: : 8.2:: : 8.4:: : 9.0"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "211.6",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 57,
+            "end": 62
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 47,
+            "end": 52
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: est. ave. glucose mg/dl:: : 211.6:: : 191.5:: america/new_york: 200.1:: america/new_york: 200.1:: : 188.6:: : 194:: : 212"
+  },
+  {
+    "entity": "glucose",
+    "entity_type": "PROBLEM",
+    "assertion": "NEGATIVE",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {
+      "relations": [
+        {
+          "entity": "211.6",
+          "entity_score": 1.0,
+          "entity_type": "TEST_VALUE",
+          "entity_span": {
+            "start": 57,
+            "end": 62
+          },
+          "entity_source": "MODEL"
+        },
+        {
+          "entity": "mg/dl",
+          "entity_score": 1.0,
+          "entity_type": "TEST_UNIT",
+          "entity_span": {
+            "start": 47,
+            "end": 52
+          },
+          "entity_source": "MODEL"
+        }
+      ],
+      "count": 2
+    },
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: est. ave. glucose mg/dl:: : 211.6:: : 191.5:: america/new_york: 200.1:: america/new_york: 200.1:: : 188.6:: : 194:: : 212"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "sbcl",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "sbclab",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "",
+    "metadata_from_qa": {},
+    "heading": "! HEMOGLOBIN A1C - Table__page_no__10",
+    "text": "! hemoglobin a1c : :: units: resulting agency:: : sbcl:: : sbcl:: america/new_york: sbcl:: america/new_york: sbcl:: : sbcl:: : sbclab:: : sbclab"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "No Heading Found__page_no__10",
+    "text": "! hemoglobin a1c"
+  },
+  {
+    "entity": "blood venipuncture",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Specimen Information__page_no__11",
+    "text": "specimen information specimen id: 24s-25710064 collected: [encounter_date] 11:37 am edt [patient_name] received: [encounter_date] 11:37 am edt specimen type: blood venipuncture"
+  },
+  {
+    "entity": "all reviewers list",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "All Reviewers List__page_no__11",
+    "text": "all reviewers list [patient_name], lpn on [encounter_date] 7:00 am [patient_name], md on [encounter_date] 1:39 pm"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "All Reviewers List__page_no__11",
+    "text": "all reviewers list [patient_name], lpn on [encounter_date] 7:00 am [patient_name], md on [encounter_date] 1:39 pm"
+  },
+  {
+    "entity": "smartlink info",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "View Smartlink Info__page_no__11",
+    "text": "view smartlink info"
+  },
+  {
+    "entity": "smartlink info",
+    "entity_type": "PROCEDURE",
+    "assertion": "",
+    "temporality": "UNCERTAIN",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "View Smartlink Info :: HEMOGLOBIN A1C (Order #[ACCOUNT_NUMBER]) on [ENCOUNTER_DATE]__page_no__11",
+    "text": "view smartlink info hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "View Smartlink Info :: HEMOGLOBIN A1C (Order #[ACCOUNT_NUMBER]) on [ENCOUNTER_DATE]__page_no__11",
+    "text": "view smartlink info hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "encounter_date",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "View Smartlink Info :: HEMOGLOBIN A1C (Order #[ACCOUNT_NUMBER]) on [ENCOUNTER_DATE]__page_no__11",
+    "text": "view smartlink info hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "outpatient",
+    "entity_type": "PROCEDURE",
+    "assertion": "POSITIVE",
+    "temporality": "CURRENT",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Order History__page_no__11",
+    "text": "outpatient"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Reprint LabCorp Laboratory Order Requisition__page_no__11",
+    "text": "reprint labcorp laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date] reprint duly health and care laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date] reprint external laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Reprint LabCorp Laboratory Order Requisition__page_no__11",
+    "text": "reprint labcorp laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date] reprint duly health and care laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date] reprint external laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  },
+  {
+    "entity": "hemoglobin a1c",
+    "entity_type": "TEST",
+    "assertion": "POSITIVE",
+    "temporality": "UPCOMING",
+    "subject": "PATIENT",
+    "metadata_from_qa": {},
+    "heading": "Reprint LabCorp Laboratory Order Requisition__page_no__11",
+    "text": "reprint labcorp laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date] reprint duly health and care laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date] reprint external laboratory order requisition hemoglobin a1c (order #[account_number]) on [encounter_date]"
+  }
+]
