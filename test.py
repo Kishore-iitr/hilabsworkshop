@@ -16,6 +16,15 @@ Example:
     python test.py test_data/chart_01/chart_01.json output/chart_01.json
 """
 
+import streamlit as st
+
+st.title("Test App")
+st.write("heeelllo")
+
+
+
+
+
 from __future__ import annotations
 
 import argparse
